@@ -1,72 +1,45 @@
 <template>
-  <div class="container">
-    <div>
-      <logo />
-      <h1 class="title">
-        blockchain-lab
-      </h1>
-      <h2 class="subtitle">
-        lab homepage
-      </h2>
-      <div class="links">
-        <a
-          href="https://nuxtjs.org/"
-          target="_blank"
-          class="button--green"
-        >
-          Documentation
-        </a>
-        <a
-          href="https://github.com/nuxt/nuxt.js"
-          target="_blank"
-          class="button--grey"
-        >
-          GitHub
-        </a>
-      </div>
+  <div>
+    <Header></Header>
+
+    <div class="main">
+
+
     </div>
+
+    <div class="container">
+
+    </div>
+
   </div>
+
 </template>
 
 <script>
-import Logo from '~/components/Logo.vue'
+  import Header from '~/components/Header.vue'
 
-export default {
-  components: {
-    Logo
+  export default {
+    components: {
+      Header
+    }
   }
-}
 </script>
 
 <style>
-.container {
-  margin: 0 auto;
-  min-height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
+  html, body {
+    /*background: #fff;*/
+    /*margin: 0;*/
+    /*padding: 0;*/
+    /*font-size: 16px;*/
+    /*font-family: Roboto, PingFang SC, -apple-system, BlinkMacSystemFont, Helvetica Neue, Microsoft YaHei, Source Han Sans SC, Noto Sans CJK SC, WenQuanYi Micro Hei, sans-serif;*/
+    /*line-height: 20px;*/
+  }
 
-.title {
-  font-family: 'Quicksand', 'Source Sans Pro', -apple-system, BlinkMacSystemFont,
-    'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
-  display: block;
-  font-weight: 300;
-  font-size: 100px;
-  color: #35495e;
-  letter-spacing: 1px;
-}
+  .main{
 
-.subtitle {
-  font-weight: 300;
-  font-size: 42px;
-  color: #526488;
-  word-spacing: 5px;
-  padding-bottom: 15px;
-}
+  }
 
-.links {
-  padding-top: 15px;
-}
+
+
+
 </style>
