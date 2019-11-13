@@ -1,53 +1,55 @@
 <template>
-  <div class="header_bg">
-    <div class="header">
-      <div class="logo">
-        <img src="~/static/logo.png" alt=""/>
-      </div>
-      <nav class="navbar-default">
-        <div class="navbar-collapse">
-          <ul class="navbar-nav">
-            <li>
-              <a href="http://baidu.com">
-                <p class="c-title">首页</p>
-                <p class="e-title">Home</p>
-              </a>
-            </li>
-            <li>
-              <a href="#">
-                <p class="c-title">加入我们</p>
-                <p class="e-title">Join Us</p>
-              </a>
-            </li>
-            <li></li>
-            <li>
-              <a href="#">
-                <p class="c-title">新闻动态</p>
-                <p class="e-title">Events</p>
-              </a>
-            </li>
-            <li>
-              <a href="#">
-                <p class="c-title">友情链接</p>
-                <p class="e-title">Link</p>
-              </a>
-            </li>
-          </ul>
+  <el-container>
+    <el-header class="header_bg" height="100px">
+      <div class="header">
+        <div class="logo">
+          <img src="~/static/logo.png" alt=""/>
         </div>
-      </nav>
-    </div>
-  </div>
+        <nav class="navbar-default">
+          <div class="navbar-collapse">
+            <ul class="navbar-nav">
+              <li>
+                <a href="http://baidu.com">
+                  <p class="c-title">首页</p>
+                  <p class="e-title">Home</p>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <p class="c-title">加入我们</p>
+                  <p class="e-title">Join Us</p>
+                </a>
+              </li>
+              <li></li>
+              <li>
+                <a href="#">
+                  <p class="c-title">新闻动态</p>
+                  <p class="e-title">Events</p>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <p class="c-title">友情链接</p>
+                  <p class="e-title">Link</p>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </el-header>
+  </el-container>
 </template>
 
 <script>
-    export default {
-        name: "Header"
-    }
+  export default {
+    name: "Header"
+  }
 </script>
 
 <style scoped>
+
   .header_bg {
-    width: 100%;
     position: fixed;
     left: 0;
     right: 0;
@@ -56,15 +58,12 @@
     backdrop-filter: blur(10px);
   }
 
-
-
   .header {
     font-weight: 500;
     width: 1200px;
     height: 100px;
     margin: 0 auto;
   }
-
 
   .logo {
     min-width: 1200px;

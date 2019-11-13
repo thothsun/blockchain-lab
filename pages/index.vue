@@ -1,41 +1,39 @@
 <template>
 
-  <div>
+  <el-container>
     <Header></Header>
 
-<!--    <el-row>-->
-
-<!--      <el-col :span="24">-->
-<!--        <p>123fasdf</p>-->
-<!--        <p>123fasdf</p>-->
-<!--        <p>123fasdf</p>-->
-<!--        <p>123fasdf</p>-->
-<!--        <p>123fasdf</p>-->
-<!--        <p>123fasdf</p>-->
-<!--        <p>123fasdf</p>-->
-<!--        <p>123fasdf</p>-->
-<!--        <p>123fasdf</p>-->
-<!--        <p>123fasdf</p>-->
-
-<!--      </el-col>-->
-
+    <el-main>
       <div class="main">
         <img src="~/static/logo.png"><br>
         <img src="~/static/logo.png"><br>
         <img src="~/static/logo.png"><br>
         <img src="~/static/logo.png"><br>
+        <img src="~/static/logo.png"><br>
+        <img src="~/static/logo.png"><br>
+        <img src="~/static/logo.png"><br>
+        <img src="~/static/logo.png"><br>
+        <img src="~/static/logo.png"><br>
+        <img src="~/static/logo.png"><br>
+        <img src="~/static/logo.png"><br>
+        <img src="~/static/logo.png"><br>
+        <img src="~/static/logo.png"><br>
+        <img src="~/static/logo.png"><br>
+        <img src="~/static/logo.png"><br>
+        <img src="~/static/logo.png"><br>
+        <img src="~/static/logo.png"><br>
       </div>
+
+      <nuxt-link to="/about">关于</nuxt-link>
+
 
       <div class="container">
 
       </div>
-
-<!--    </el-row>-->
-
+    </el-main>
 
 
-
-  </div>
+  </el-container>
 </template>
 
 <script>
@@ -58,11 +56,11 @@
     /*line-height: 20px;*/
   }
 
-  .main{
+
+
+  .main {
 
   }
-
-
 
 
 </style>
