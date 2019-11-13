@@ -1,18 +1,41 @@
 <template>
+
   <div>
     <Header></Header>
 
-    <div class="main">
+<!--    <el-row>-->
+
+<!--      <el-col :span="24">-->
+<!--        <p>123fasdf</p>-->
+<!--        <p>123fasdf</p>-->
+<!--        <p>123fasdf</p>-->
+<!--        <p>123fasdf</p>-->
+<!--        <p>123fasdf</p>-->
+<!--        <p>123fasdf</p>-->
+<!--        <p>123fasdf</p>-->
+<!--        <p>123fasdf</p>-->
+<!--        <p>123fasdf</p>-->
+<!--        <p>123fasdf</p>-->
+
+<!--      </el-col>-->
+
+      <div class="main">
+        <img src="~/static/logo.png"><br>
+        <img src="~/static/logo.png"><br>
+        <img src="~/static/logo.png"><br>
+        <img src="~/static/logo.png"><br>
+      </div>
+
+      <div class="container">
+
+      </div>
+
+<!--    </el-row>-->
 
 
-    </div>
 
-    <div class="container">
-
-    </div>
 
   </div>
-
 </template>
 
 <script>
