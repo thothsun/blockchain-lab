@@ -8,30 +8,13 @@
         <nav class="navbar-default">
           <div class="navbar-collapse">
             <ul class="navbar-nav">
-              <li v-bind:class="{'selected':index==='home','mousein':mouseindex==='home'}" @mouseenter="mouseenter('home')" @mouseleave="mouseleave()">
-                <a>
-                  <p class="c-title">首页</p>
-                  <p class="e-title">Home</p>
-                </a>
-              </li>
-              <li v-bind:class="{'selected':index==='join','mousein':mouseindex==='join'}" @mouseenter="mouseenter('join')" @mouseleave="mouseleave()">
-                <a href="#">
-                  <p class="c-title">加入我们</p>
-                  <p class="e-title">Join Us</p>
-                </a>
-              </li>
-              <li></li>
-              <li v-bind:class="{'selected':index==='news','mousein':mouseindex==='news'}" @mouseenter="mouseenter('news')" @mouseleave="mouseleave()">
-                <a href="#">
-                  <p class="c-title">新闻动态</p>
-                  <p class="e-title">Events</p>
-                </a>
-              </li>
-              <li v-bind:class="{'selected':index==='friend','mousein':mouseindex==='friend'}" @mouseenter="mouseenter('friend')" @mouseleave="mouseleave()">
-                <a href="#">
-                  <p class="c-title">友情链接</p>
-                  <p class="e-title">Link</p>
-                </a>
+              <li v-for="item in titles"
+                  v-bind:class="{'selected':index===item.key,'mousein':mouseindex===item.key}"
+                  @mouseenter="mouseenter(item.key)" @mouseleave="mouseleave()">
+                <nuxt-link v-bind:to="item.key">
+                  <p class="c-title">{{item.name_cn}}</p>
+                  <p class="e-title">{{item.name_en}}</p>
+                </nuxt-link>
               </li>
             </ul>
           </div>
@@ -46,22 +29,57 @@
     props: {
       index: {
         type: String,
-        default: 'home'
+        default: 'introduction'
       }
     },
     data() {
       return {
+        titles: [
+          {
+            key: '/',
+            name_cn: '简介',
+            name_en: 'introduction'
+          },
+          {
+            key: 'achievements',
+            name_cn: '学术成果',
+            name_en: 'achievements'
+          },
+          {
+            key: 'members',
+            name_cn: '团队成员',
+            name_en: 'members'
+          },
+          {
+            // todo logo的key是/，首页时会有border。使用elementui修改布局，修改后应该不存在这个问题了
+            key: '/',
+            name_cn: ' ',
+            name_en: ' '
+          },
+          {
+            key: 'join',
+            name_cn: '加入我们',
+            name_en: 'join us'
+          },
+          {
+            key: 'events',
+            name_cn: '新闻活动',
+            name_en: 'events'
+          },
+          {
+            key: 'friends',
+            name_cn: '友情链接',
+            name_en: 'friends'
+          }],
         mouseindex: ''
       }
     },
     methods: {
       mouseenter(index) {
         this.mouseindex = index
-        console.log('come!')
       },
       mouseleave() {
         this.mouseindex = null
-        console.log('leave')
       }
     }
   }
@@ -129,7 +147,7 @@
     float: left;
     display: table;
     list-style: none;
-    width: 20%;
+    width: 14.2857142%;
     height: 100%;
     text-align: center;
   }
@@ -160,16 +178,12 @@
   }
 
   .selected {
-    border-bottom:1px solid purple;
+    border-bottom: 1px solid purple;
   }
 
   .mousein {
-    border-bottom:1px solid purple;
+    border-bottom: 1px solid purple;
   }
-
-
-
-
 
 
 </style>

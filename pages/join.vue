@@ -1,7 +1,9 @@
 <template>
   <el-container>
-    <myheader index="news"></myheader>
-
+    <myheader index="join"></myheader>
+    <el-main>
+      <h1 style="margin-top: 100px">加入我们</h1>
+    </el-main>
   </el-container>
 </template>
 

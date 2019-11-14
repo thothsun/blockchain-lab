@@ -1,14 +1,11 @@
 <template>
 
   <el-container>
-    <myheader></myheader>
+    <myheader index="/"></myheader>
 
     <el-main>
-      <div class="main">
 
-      </div>
-
-      <nuxt-link to="/about">关于</nuxt-link>
+      <h1 style="margin-top: 100px">简介</h1>
 
 
       <div class="container">
