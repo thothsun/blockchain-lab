@@ -8,26 +8,26 @@
         <nav class="navbar-default">
           <div class="navbar-collapse">
             <ul class="navbar-nav">
-              <li>
-                <a href="#">
+              <li v-bind:class="{'selected':index==='home','mousein':mouseindex==='home'}" @mouseenter="mouseenter('home')" @mouseleave="mouseleave()">
+                <a>
                   <p class="c-title">首页</p>
                   <p class="e-title">Home</p>
                 </a>
               </li>
-              <li>
+              <li v-bind:class="{'selected':index==='join','mousein':mouseindex==='join'}" @mouseenter="mouseenter('join')" @mouseleave="mouseleave()">
                 <a href="#">
                   <p class="c-title">加入我们</p>
                   <p class="e-title">Join Us</p>
                 </a>
               </li>
               <li></li>
-              <li>
+              <li v-bind:class="{'selected':index==='news','mousein':mouseindex==='news'}" @mouseenter="mouseenter('news')" @mouseleave="mouseleave()">
                 <a href="#">
                   <p class="c-title">新闻动态</p>
                   <p class="e-title">Events</p>
                 </a>
               </li>
-              <li>
+              <li v-bind:class="{'selected':index==='friend','mousein':mouseindex==='friend'}" @mouseenter="mouseenter('friend')" @mouseleave="mouseleave()">
                 <a href="#">
                   <p class="c-title">友情链接</p>
                   <p class="e-title">Link</p>
@@ -43,6 +43,27 @@
 
 <script>
   export default {
+    props: {
+      index: {
+        type: String,
+        default: 'home'
+      }
+    },
+    data() {
+      return {
+        mouseindex: ''
+      }
+    },
+    methods: {
+      mouseenter(index) {
+        this.mouseindex = index
+        console.log('come!')
+      },
+      mouseleave() {
+        this.mouseindex = null
+        console.log('leave')
+      }
+    }
   }
 </script>
 
@@ -137,5 +158,18 @@
     font-weight: 700;
     text-transform: uppercase;
   }
+
+  .selected {
+    border-bottom:1px solid purple;
+  }
+
+  .mousein {
+    border-bottom:1px solid purple;
+  }
+
+
+
+
+
 
 </style>

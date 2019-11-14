@@ -5,23 +5,7 @@
 
     <el-main>
       <div class="main">
-        <img src="/logo.png"><br>
-        <img src="/logo.png"><br>
-        <img src="/logo.png"><br>
-        <img src="/logo.png"><br>
-        <img src="/logo.png"><br>
-        <img src="/logo.png"><br>
-        <img src="/logo.png"><br>
-        <img src="/logo.png"><br>
-        <img src="/logo.png"><br>
-        <img src="/logo.png"><br>
-        <img src="/logo.png"><br>
-        <img src="/logo.png"><br>
-        <img src="/logo.png"><br>
-        <img src="/logo.png"><br>
-        <img src="/logo.png"><br>
-        <img src="/logo.png"><br>
-        <img src="/logo.png"><br>
+
       </div>
 
       <nuxt-link to="/about">关于</nuxt-link>

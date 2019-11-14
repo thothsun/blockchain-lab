@@ -1,6 +1,6 @@
 <template>
   <el-container>
-    <myheader></myheader>
+    <myheader index="news"></myheader>
 
   </el-container>
 </template>
