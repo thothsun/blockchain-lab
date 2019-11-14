@@ -1,17 +1,17 @@
 <template>
   <el-container>
-    <Header></Header>
+    <myheader></myheader>
 
   </el-container>
 </template>
 
 <script>
-  import Header from '~/components/Header.vue'
+  import myheader from '~/components/header.vue'
 
   export default {
     name: "about",
     components: {
-      Header
+      myheader
     }
   }
 </script>

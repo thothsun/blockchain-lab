@@ -1,27 +1,27 @@
 <template>
 
   <el-container>
-    <Header></Header>
+    <myheader></myheader>
 
     <el-main>
       <div class="main">
-        <img src="~/static/logo.png"><br>
-        <img src="~/static/logo.png"><br>
-        <img src="~/static/logo.png"><br>
-        <img src="~/static/logo.png"><br>
-        <img src="~/static/logo.png"><br>
-        <img src="~/static/logo.png"><br>
-        <img src="~/static/logo.png"><br>
-        <img src="~/static/logo.png"><br>
-        <img src="~/static/logo.png"><br>
-        <img src="~/static/logo.png"><br>
-        <img src="~/static/logo.png"><br>
-        <img src="~/static/logo.png"><br>
-        <img src="~/static/logo.png"><br>
-        <img src="~/static/logo.png"><br>
-        <img src="~/static/logo.png"><br>
-        <img src="~/static/logo.png"><br>
-        <img src="~/static/logo.png"><br>
+        <img src="/logo.png"><br>
+        <img src="/logo.png"><br>
+        <img src="/logo.png"><br>
+        <img src="/logo.png"><br>
+        <img src="/logo.png"><br>
+        <img src="/logo.png"><br>
+        <img src="/logo.png"><br>
+        <img src="/logo.png"><br>
+        <img src="/logo.png"><br>
+        <img src="/logo.png"><br>
+        <img src="/logo.png"><br>
+        <img src="/logo.png"><br>
+        <img src="/logo.png"><br>
+        <img src="/logo.png"><br>
+        <img src="/logo.png"><br>
+        <img src="/logo.png"><br>
+        <img src="/logo.png"><br>
       </div>
 
       <nuxt-link to="/about">关于</nuxt-link>
@@ -37,11 +37,11 @@
 </template>
 
 <script>
-  import Header from '~/components/Header.vue'
+  import myheader from '~/components/header.vue'
 
   export default {
     components: {
-      Header
+      myheader
     }
   }
 </script>

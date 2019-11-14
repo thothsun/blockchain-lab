@@ -3,13 +3,13 @@
     <el-header class="header_bg" height="100px">
       <div class="header">
         <div class="logo">
-          <img src="~/static/logo.png" alt=""/>
+          <img src="/logo.png" alt=""/>
         </div>
         <nav class="navbar-default">
           <div class="navbar-collapse">
             <ul class="navbar-nav">
               <li>
-                <a href="http://baidu.com">
+                <a href="#">
                   <p class="c-title">首页</p>
                   <p class="e-title">Home</p>
                 </a>
@@ -43,7 +43,6 @@
 
 <script>
   export default {
-    name: "Header"
   }
 </script>
 
