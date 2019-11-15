@@ -1,5 +1,5 @@
 <template>
-  <el-container>
+  <el-container direction="vertical">
     <myheader index="events"></myheader>
     <el-main>
       <h1 style="margin-top: 100px">新闻活动</h1>

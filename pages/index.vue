@@ -1,6 +1,6 @@
 <template>
 
-  <el-container>
+  <el-container direction="vertical">
     <myheader index="/"></myheader>
 
     <el-main>

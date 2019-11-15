@@ -1,5 +1,5 @@
 <template>
-  <el-container>
+  <el-container direction="vertical">
     <myheader index="achievements"></myheader>
     <el-main>
       <h1 style="margin-top: 100px">学术成果</h1>

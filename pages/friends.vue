@@ -1,5 +1,5 @@
 <template>
-  <el-container>
+  <el-container direction="vertical">
     <myheader index="friends"></myheader>
     <el-main>
       <h1 style="margin-top: 100px">友情链接</h1>

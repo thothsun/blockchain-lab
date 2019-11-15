@@ -1,5 +1,5 @@
 <template>
-  <el-container>
+  <el-container direction="vertical">
     <myheader index="join"></myheader>
     <el-main>
       <h1 style="margin-top: 100px">加入我们</h1>
