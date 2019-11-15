@@ -3,10 +3,28 @@
     <myheader index="achievements"></myheader>
     <el-main class="main-content">
 
-      <h1>学术成果</h1>
+      <h1>发表论文</h1>
 
       <ul>
-        <li v-for="item in papers">
+        <li v-for="item in papers" class="item">
+          {{item}}
+        </li>
+      </ul>
+
+
+      <h1>申请专利</h1>
+
+      <ul>
+        <li v-for="item in patents" class="item">
+          {{item}}
+        </li>
+      </ul>
+
+
+      <h1>获得奖项</h1>
+
+      <ul>
+        <li v-for="item in awards" class="item">
           {{item}}
         </li>
       </ul>
@@ -21,9 +39,9 @@
 
   export default {
     name: "achievements",
-    data(){
-      return{
-        papers:[
+    data() {
+      return {
+        papers: [
           'Qianwei Zhuang, Yuan Liu Lisi Chen, Zhengpeng Ai. Proof of Reputation: A Reputation-based Consensus Protocol for Blockchain based Systems, 2019 International Electronics Communication Conference (IECC), 2019. EI检索[PDF][Online]',
           'Tianzhi Yang, Yuan Liu. A Smart Agent based Blockchain Applicaiton Architecture, The 4th International Conference on Crowd Science and Engineering(ICCSE), 2019. EI检索 [PDF][Online]',
           'Shuai Sun, Yuan Liu, Xingren Chen, Guibing Guo. The 17th IEEE International Symposium on Parallel and Distributed Processing with Applications(ISPA) 2019.CCF C类[PDF]',
@@ -57,6 +75,15 @@
           'Yuan Liu, Jie Zhang, Qin Li “An Incentive Mechanism to Promote Honesty in E-marketplaces with Limited Inventory ”, in the proceedings of 6th IFIP WG 11.11 International Conference on Trust Management, Surat, India (IFIPTM2012), pages 209-216. EI检索[PDF][Online]',
           'Yuan Liu, Jie Zhang, Quanyan Zhu “Design of a Reputation System based on Dynamic Coalition Formation”, in the proceedings of Third International Conference on Social Informatics, Singapore (SocInfo2011), pages 135-144. EI检索[PDF][Online]',
 
+        ],
+        patents: [
+          '一种......算法',
+          '基于......的模型',
+          '基于......的系统'
+        ],
+        awards: [
+          '全国大学生信息安全竞赛特等奖',
+          'ACM程序设计大赛金奖'
         ]
       }
     },
@@ -67,6 +94,10 @@
 </script>
 
 <style scoped>
+
+  .item {
+    margin: 10px 0;
+  }
 
 </style>
 
