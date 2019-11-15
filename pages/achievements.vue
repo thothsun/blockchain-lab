@@ -108,12 +108,7 @@
     text-justify: inter-ideograph
   }
 
-  hr {
-    border: none;
-    height: 1px;
-    background-color: lightgray;
-    margin: 30px 0;
-  }
+
 </style>
 
 

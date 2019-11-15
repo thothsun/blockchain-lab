@@ -31,6 +31,13 @@
     color: #1B2B4F;
   }
 
+  hr {
+    border: none;
+    height: 1px;
+    background-color: lightgray;
+    margin: 30px 0;
+  }
+
   *,
   *:before,
   *:after {
