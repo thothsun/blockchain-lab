@@ -28,14 +28,6 @@
 </script>
 
 <style>
-  html, body {
-    /*background: #fff;*/
-    /*margin: 0;*/
-    /*padding: 0;*/
-    /*font-size: 16px;*/
-    /*font-family: Roboto, PingFang SC, -apple-system, BlinkMacSystemFont, Helvetica Neue, Microsoft YaHei, Source Han Sans SC, Noto Sans CJK SC, WenQuanYi Micro Hei, sans-serif;*/
-    /*line-height: 20px;*/
-  }
 
 
 

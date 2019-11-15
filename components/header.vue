@@ -3,27 +3,27 @@
     <el-header class="header_bg" height="100px">
       <nav class="navbar">
 
-          <div v-for="item in titles1"
-               v-bind:class="{'selected':index===item.key,'mousein':mouseindex===item.key}"
-               @mouseenter="mouseenter(item.key)" @mouseleave="mouseleave()" class="title-item">
-            <nuxt-link v-bind:to="item.key" class="title-item-link">
-              <p class="c-title">{{item.name_cn}}</p>
-              <p class="e-title">{{item.name_en}}</p>
-            </nuxt-link>
-          </div>
+        <div v-for="item in titles1"
+             v-bind:class="{'selected':index===item.key,'mousein':mouseindex===item.key}"
+             @mouseenter="mouseenter(item.key)" @mouseleave="mouseleave()" class="title-item">
+          <nuxt-link v-bind:to="item.key" class="title-item-link">
+            <p class="c-title">{{item.name_cn}}</p>
+            <p class="e-title">{{item.name_en}}</p>
+          </nuxt-link>
+        </div>
 
-          <div class="logo">
-            <img src="/logo.png" alt=""/>
-          </div>
+        <div class="logo">
+          <img src="/logo.png" alt=""/>
+        </div>
 
-          <div v-for="item in titles2"
-               v-bind:class="{'selected':index===item.key,'mousein':mouseindex===item.key}"
-               @mouseenter="mouseenter(item.key)" @mouseleave="mouseleave()" class="title-item">
-            <nuxt-link v-bind:to="item.key" class="title-item-link">
-              <p class="c-title">{{item.name_cn}}</p>
-              <p class="e-title">{{item.name_en}}</p>
-            </nuxt-link>
-          </div>
+        <div v-for="item in titles2"
+             v-bind:class="{'selected':index===item.key,'mousein':mouseindex===item.key}"
+             @mouseenter="mouseenter(item.key)" @mouseleave="mouseleave()" class="title-item">
+          <nuxt-link v-bind:to="item.key" class="title-item-link">
+            <p class="c-title">{{item.name_cn}}</p>
+            <p class="e-title">{{item.name_en}}</p>
+          </nuxt-link>
+        </div>
 
       </nav>
     </el-header>
