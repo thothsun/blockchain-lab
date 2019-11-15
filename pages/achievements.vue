@@ -34,10 +34,14 @@
 
 
     </el-main>
+
+
+    <myfooter></myfooter>
   </el-container>
 </template>
 <script>
   import myheader from '~/components/header.vue'
+  import myfooter from '~/components/footer.vue'
 
   export default {
     name: "achievements",
@@ -90,7 +94,8 @@
       }
     },
     components: {
-      myheader
+      myheader,
+      myfooter
     }
   }
 </script>

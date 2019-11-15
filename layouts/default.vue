@@ -20,6 +20,7 @@
 
   body {
     overflow-y: scroll;
+    min-height: 100vh;
   }
 
   .main-content {
