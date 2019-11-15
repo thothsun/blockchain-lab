@@ -17,12 +17,17 @@
     font-family: 'Source Sans Pro', PingFang SC, -apple-system, BlinkMacSystemFont, Helvetica Neue, Microsoft YaHei, Source Han Sans SC, Noto Sans CJK SC, WenQuanYi Micro Hei, sans-serif;
   }
 
-  .main-content{
+
+  body {
+    overflow-y: scroll;
+  }
+
+  .main-content {
     margin: 0 auto;
     width: 50vw;
   }
 
-  h1{
+  h1 {
     color: #1B2B4F;
   }
 

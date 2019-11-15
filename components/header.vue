@@ -13,7 +13,7 @@
         </div>
 
         <div class="logo">
-          <img src="/logo.png" alt=""/>
+          <p style="font-size: 70px;font-family: 'Times New Roman',serif;color: purple">B&R</p>
         </div>
 
         <div v-for="item in titles2"
@@ -118,10 +118,6 @@
     float: left;
   }
 
-  .logo img {
-    width: 128px;
-    height: 50px;
-  }
 
 
   .title-item {
