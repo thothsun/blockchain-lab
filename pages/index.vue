@@ -73,9 +73,6 @@
 
 <style scoped>
 
-  h1{
-    margin: 20px 0 10px 0;
-  }
 
   h4 {
     margin: 20px 0 10px 0;

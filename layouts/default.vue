@@ -29,6 +29,7 @@
 
   h1 {
     color: #1B2B4F;
+    margin: 20px 0 10px 0;
   }
 
   hr {

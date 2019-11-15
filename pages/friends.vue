@@ -2,7 +2,7 @@
   <el-container direction="vertical">
     <myheader index="friends"></myheader>
     <el-main class="main-content">
-      <h1>友情链接</h1>
+      <h1>开发中.</h1>
     </el-main>
   </el-container>
 </template>
