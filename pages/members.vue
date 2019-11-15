@@ -1,7 +1,7 @@
 <template>
   <el-container direction="vertical">
     <myheader index="members"></myheader>
-    <el-main>
+    <el-main class="main-content">
       <h1>团队成员</h1>
     </el-main>
   </el-container>

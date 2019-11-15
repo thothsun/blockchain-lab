@@ -1,7 +1,7 @@
 <template>
   <el-container direction="vertical">
     <myheader index="events"></myheader>
-    <el-main>
+    <el-main class="main-content">
       <h1>新闻活动</h1>
     </el-main>
   </el-container>

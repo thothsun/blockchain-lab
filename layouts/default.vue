@@ -16,6 +16,10 @@
     font-family: 'Source Sans Pro', PingFang SC, -apple-system, BlinkMacSystemFont, Helvetica Neue, Microsoft YaHei, Source Han Sans SC, Noto Sans CJK SC, WenQuanYi Micro Hei, sans-serif;
   }
 
+  .main-content{
+    margin: 0 auto;
+    width: 50vw;
+  }
 
   *,
   *:before,
