@@ -1,6 +1,6 @@
 <template>
   <el-container direction="vertical">
-    <myheader index="join"></myheader>
+    <myheader index="/join"></myheader>
     <el-main class="main-content">
 
 

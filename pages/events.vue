@@ -1,6 +1,6 @@
 <template>
   <el-container direction="vertical">
-    <myheader index="events"></myheader>
+    <myheader index="/events"></myheader>
     <el-main class="main-content">
       <h1>开发中.</h1>
     </el-main>

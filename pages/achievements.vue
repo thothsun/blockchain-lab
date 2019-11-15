@@ -1,6 +1,6 @@
 <template>
   <el-container direction="vertical">
-    <myheader index="achievements"></myheader>
+    <myheader index="/achievements"></myheader>
     <el-main class="main-content">
 
       <h1>发表论文</h1>

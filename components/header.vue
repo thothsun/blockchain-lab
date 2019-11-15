@@ -50,28 +50,28 @@
             name_en: 'introduction'
           },
           {
-            key: 'achievements',
+            key: '/achievements',
             name_cn: '学术成果',
             name_en: 'achievements'
           },
           {
-            key: 'members',
+            key: '/members',
             name_cn: '团队成员',
             name_en: 'members'
           }],
         titles2: [
           {
-            key: 'join',
+            key: '/join',
             name_cn: '加入我们',
             name_en: 'join us'
           },
           {
-            key: 'events',
+            key: '/events',
             name_cn: '新闻活动',
             name_en: 'events'
           },
           {
-            key: 'friends',
+            key: '/friends',
             name_cn: '友情链接',
             name_en: 'friends'
           }],
@@ -118,7 +118,6 @@
     align-items: center;
     float: left;
   }
-
 
 
   .title-item {
