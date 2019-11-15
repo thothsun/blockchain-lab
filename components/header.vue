@@ -27,6 +27,7 @@
 
       </nav>
     </el-header>
+    <el-header height="100px"></el-header> <!--placeholder-->
   </el-container>
 </template>
 
@@ -94,7 +95,7 @@
     right: 0;
     top: 0;
     background-color: rgba(237, 237, 237, 0.8);
-    backdrop-filter: blur(10px);
+    backdrop-filter: blur(5px);
   }
 
   .navbar {

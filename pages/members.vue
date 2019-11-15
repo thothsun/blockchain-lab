@@ -2,7 +2,7 @@
   <el-container direction="vertical">
     <myheader index="members"></myheader>
     <el-main>
-      <h1 style="margin-top: 100px">团队成员</h1>
+      <h1>团队成员</h1>
     </el-main>
   </el-container>
 </template>

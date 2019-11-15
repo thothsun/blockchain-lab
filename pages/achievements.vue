@@ -2,7 +2,7 @@
   <el-container direction="vertical">
     <myheader index="achievements"></myheader>
     <el-main>
-      <h1 style="margin-top: 100px">学术成果</h1>
+      <h1>学术成果</h1>
     </el-main>
   </el-container>
 </template>
