@@ -24,7 +24,7 @@
     align-items: center;
     color: grey;
     font-size: 12px;
-    background-color: rgba(237, 237, 237, 0.8);;
+    background-color: rgba(237, 237, 237);;
   }
 
   .content{
