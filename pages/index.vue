@@ -5,39 +5,7 @@
 
     <el-main class="main-content">
 
-                  <p>asdklfjaskdljflkasdhfkl</p>
-                  <p>asdklfjaskdljflkasdhfkl</p>
-                  <p>asdklfjaskdljflkasdhfkl</p>
-                  <p>asdklfjaskdljflkasdhfkl</p>
-                  <p>asdklfjaskdljflkasdhfkl</p>
-                  <p>asdklfjaskdljflkasdhfkl</p>
-                  <p>asdklfjaskdljflkasdhfkl</p>
-                  <p>asdklfjaskdljflkasdhfkl</p>
-                  <p>asdklfjaskdljflkasdhfklfw</p>
-                  <p>asdklfjaskdljflkasdhfkl</p>
-                  <p>asdklfjaskdljflkasdhfkladsf</p>
-                  <p>asdklfjaskdljflkasdhfkl</p>
-                  <p>asdklfjaskdljflkasdhfkl</p>
-                  <p>asdklfjaskdljflkasdhfkl</p>
-                  <p>asdklfjaskdljflkasdhfkl</p>
-                  <p>asdklfjaskdljflkasdhfkl</p>
-                  <p>asdklfjaskdljflkasdhfkl</p>
-                  <p>asdklfjaskdljflkasdhfkl</p>
-                  <p>asdklfjaskdljflkasdhfkl</p>
-                  <p>asdklfjaskdljflkasdhfklfw</p>
-                  <p>asdklfjaskdljflkasdhfkl</p>
-                  <p>asdklfjaskdljflkasdhfkladsf</p>
-                  <p>asdklfjaskdljflkasdhfkl</p>
-                  <p>asdklfjaskdljflkasdhfkl</p>
-                  <p>asdklfjaskdljflkasdhfkl</p>
-                  <p>asdklfjaskdljflkasdhfkl</p>
-                  <p>asdklfjaskdljflkasdhfkl</p>
-                  <p>asdklfjaskdljflkasdhfkl</p>
-                  <p>asdklfjaskdljflkasdhfkl</p>
-                  <p>asdklfjaskdljflkasdhfkl</p>
-                  <p>asdklfjaskdljflkasdhfklfw</p>
-                  <p>asdklfjaskdljflkasdhfkl</p>
-                  <p>asdklfjaskdljflkasdhfkladsf</p>
+
 
     </el-main>
 
