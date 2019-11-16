@@ -6,7 +6,7 @@
 
 <style>
   html {
-    font-size: 16px;
+    font-size: 62.5%;
     word-spacing: 1px;
     -ms-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%;
@@ -21,6 +21,7 @@
   body {
     overflow-y: scroll;
     min-height: 100vh;
+    font-size: 1.6rem;
   }
 
   .main-content {

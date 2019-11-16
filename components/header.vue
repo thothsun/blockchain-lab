@@ -125,7 +125,7 @@
     display: inline-flex;
     justify-content: center;
     align-items: center;
-    font-size: 40px;
+    font-size: 5rem;
     font-family: 'Times New Roman', serif;
     color: purple
   }
@@ -135,7 +135,7 @@
     float: left;
     display: table;
     list-style: none;
-    width: 30%;
+    width: 33%;
     height: 100%;
     text-align: center;
   }
@@ -154,11 +154,12 @@
 
   .c-title {
     margin-bottom: 10px;
+    font-size: 1.6rem;
   }
 
   .e-title {
     line-height: 11px;
-    font-size: 10px;
+    font-size: 1rem;
     color: #797c81;
     letter-spacing: 1px;
     font-weight: 700;
