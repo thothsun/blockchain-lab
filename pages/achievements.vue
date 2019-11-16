@@ -13,7 +13,7 @@
             </li>
           </ul>
 
-          <hr/>
+          <el-divider></el-divider>
 
 
           <h1>申请专利</h1>
@@ -24,7 +24,7 @@
             </li>
           </ul>
 
-          <hr/>
+          <el-divider></el-divider>
 
           <h1>获得奖项</h1>
 

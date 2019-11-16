@@ -38,12 +38,6 @@
     color: #606266;
   }
 
-  hr {
-    border: none;
-    height: 1px;
-    background-color: #DCDFE6;
-    margin: 30px 0;
-  }
 
   *,
   *:before,

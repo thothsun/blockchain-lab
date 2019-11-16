@@ -9,7 +9,7 @@
             如果你认为自己很优秀，实验室会让你学会独立思考成就思辨的人生，如果你认为自己不够优秀，实验室会让你自信地走向优秀
           </p>
 
-          <hr/>
+          <el-divider></el-divider>
 
           <h1>招收对象</h1>
 
@@ -27,7 +27,7 @@
             </li>
           </ul>
 
-          <hr/>
+          <el-divider></el-divider>
 
           请感兴趣的同学发送简历至 <b>liuyuan@swc.neu.edu.cn</b>
 
