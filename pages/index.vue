@@ -82,12 +82,11 @@
 
   h4 {
     margin: 20px 0 10px 0;
-    color: #1B2B4F;
   }
 
   p {
     line-height: 1.7;
-    color: #1B2B4F;
+    color: #606266;
   }
 
 

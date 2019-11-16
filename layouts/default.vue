@@ -20,7 +20,7 @@
   body {
     overflow-y: scroll;
     min-height: 100vh;
-    font-size: 1.6rem;
+    font-size: 1.4rem;
   }
 
   .main-content {
@@ -28,19 +28,20 @@
   }
 
   h1 {
-    color: #1B2B4F;
+    color: #303133;
     margin: 20px 0 10px 0;
     font-size: 2rem;
   }
 
   h4{
     font-size: 1.6rem;
+    color: #606266;
   }
 
   hr {
     border: none;
     height: 1px;
-    background-color: lightgray;
+    background-color: #DCDFE6;
     margin: 30px 0;
   }
 

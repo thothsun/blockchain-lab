@@ -141,7 +141,7 @@
   }
 
   .title-item-link {
-    color: #051027;
+    color: #303133;
     letter-spacing: 0;
     line-height: 1.3;
     text-align: center;
@@ -158,7 +158,7 @@
 
   .e-title {
     font-size: 1rem;
-    color: #797c81;
+    color: #909399;
     letter-spacing: 1px;
     font-weight: 700;
     text-transform: uppercase;

@@ -110,7 +110,7 @@
 
 
   li {
-    color: #1B2B4F;
+    color: #606266;
     text-align: justify;
     text-justify: inter-ideograph
   }

@@ -22,7 +22,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    color: grey;
+    color: #909399;
     font-size: 1.2rem;
     background-color: rgba(237, 237, 237);;
   }
