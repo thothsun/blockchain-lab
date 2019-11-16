@@ -128,7 +128,8 @@
     align-items: center;
     font-size: 5rem;
     font-family: 'Times New Roman', serif;
-    color: purple
+    color: purple;
+    overflow: hidden;
   }
 
 
@@ -156,6 +157,7 @@
   .c-title {
     margin-bottom: 10px;
     font-size: 1.6rem;
+    white-space: nowrap;
   }
 
   .e-title {
@@ -165,6 +167,7 @@
     letter-spacing: 1px;
     font-weight: 700;
     text-transform: uppercase;
+    white-space: nowrap;
   }
 
   .selected {
