@@ -13,8 +13,7 @@
     -moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased;
     box-sizing: border-box;
-    /*todo 修改字体，美化*/
-    font-family: 'Source Sans Pro', PingFang SC, -apple-system, BlinkMacSystemFont, Helvetica Neue, Microsoft YaHei, Source Han Sans SC, Noto Sans CJK SC, WenQuanYi Micro Hei, sans-serif;
+    font-family: "Helvetica Neue",Helvetica,"PingFang SC","Hiragino Sans GB","Microsoft YaHei","微软雅黑",Arial,sans-serif;
   }
 
 
@@ -31,6 +30,11 @@
   h1 {
     color: #1B2B4F;
     margin: 20px 0 10px 0;
+    font-size: 2rem;
+  }
+
+  h4{
+    font-size: 1.6rem;
   }
 
   hr {

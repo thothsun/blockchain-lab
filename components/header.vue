@@ -143,7 +143,7 @@
   .title-item-link {
     color: #051027;
     letter-spacing: 0;
-    line-height: 20px;
+    line-height: 1.3;
     text-align: center;
     display: table-cell;
     vertical-align: middle;
@@ -151,13 +151,12 @@
   }
 
   .c-title {
+    font-size: 1.8rem;
     margin-bottom: 10px;
-    font-size: 1.6rem;
     white-space: nowrap;
   }
 
   .e-title {
-    line-height: 11px;
     font-size: 1rem;
     color: #797c81;
     letter-spacing: 1px;

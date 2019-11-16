@@ -86,7 +86,7 @@
   }
 
   p {
-    line-height: 30px;
+    line-height: 1.7;
     color: #1B2B4F;
   }
 
