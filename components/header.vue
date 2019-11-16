@@ -107,6 +107,7 @@
     top: 0;
     background-color: rgba(237, 237, 237, 1);
     font-weight: 500;
+    z-index: 999;
   }
 
   .el-row, .el-col {

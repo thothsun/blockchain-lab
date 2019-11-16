@@ -3,36 +3,38 @@
     <myheader index="/achievements"></myheader>
     <el-main class="main-content">
 
-      <h1>发表论文</h1>
+      <el-row :gutter="0" type="flex" justify="center">
+        <el-col :xs="20" :sm="18" :md="16" :lg="14" :xl="12">
+          <h1>发表论文</h1>
 
-      <ul>
-        <li v-for="item in papers" class="item">
-          {{item}}
-        </li>
-      </ul>
+          <ul>
+            <li v-for="item in papers" class="item">
+              {{item}}
+            </li>
+          </ul>
 
-      <hr/>
-
-
-      <h1>申请专利</h1>
-
-      <ul>
-        <li v-for="item in patents" class="item">
-          {{item}}
-        </li>
-      </ul>
-
-      <hr/>
-
-      <h1>获得奖项</h1>
-
-      <ul>
-        <li v-for="item in awards" class="item">
-          {{item}}
-        </li>
-      </ul>
+          <hr/>
 
 
+          <h1>申请专利</h1>
+
+          <ul>
+            <li v-for="item in patents" class="item">
+              {{item}}
+            </li>
+          </ul>
+
+          <hr/>
+
+          <h1>获得奖项</h1>
+
+          <ul>
+            <li v-for="item in awards" class="item">
+              {{item}}
+            </li>
+          </ul>
+        </el-col>
+      </el-row>
     </el-main>
 
 

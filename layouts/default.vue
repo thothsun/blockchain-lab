@@ -25,8 +25,6 @@
   }
 
   .main-content {
-    margin: 0 auto;
-    width: 50vw;
     min-height: calc(100vh - 160px) /* 160px = header 100px + footer 60px */
   }
 
