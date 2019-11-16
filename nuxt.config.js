@@ -22,6 +22,7 @@ export default {
   */
   css: [
     'element-ui/lib/theme-chalk/index.css',
+    'element-ui/lib/theme-chalk/display.css',
     'assets/main.css'
   ],
   /*

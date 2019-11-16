@@ -15,7 +15,7 @@
           </div>
         </el-col>
 
-        <el-col :span="2">
+        <el-col :span="2" class="hidden-sm-and-down">
           <div class="logo">
             <p style="">B&R</p>
           </div>
@@ -126,7 +126,7 @@
     display: inline-flex;
     justify-content: center;
     align-items: center;
-    font-size: 5rem;
+    font-size: 6rem;
     font-family: 'Times New Roman', serif;
     color: purple;
     overflow: hidden;
@@ -134,16 +134,13 @@
 
 
   .title-item {
-    float: left;
     display: table;
-    list-style: none;
     width: 33%;
     height: 100%;
     text-align: center;
   }
 
   .title-item-link {
-    font-size: 16px;
     color: #051027;
     letter-spacing: 0;
     line-height: 20px;
@@ -151,7 +148,6 @@
     display: table-cell;
     vertical-align: middle;
     text-decoration: none;
-
   }
 
   .c-title {
