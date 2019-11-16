@@ -1,31 +1,40 @@
 <template>
   <el-container>
     <el-header class="header_bg" height="100px">
-      <nav class="navbar">
 
-        <div v-for="item in titles1"
-             v-bind:class="{'selected':index===item.key,'mousein':mouseindex===item.key}"
-             @mouseenter="mouseenter(item.key)" @mouseleave="mouseleave()" class="title-item">
-          <nuxt-link v-bind:to="item.key" class="title-item-link">
-            <p class="c-title">{{item.name_cn}}</p>
-            <p class="e-title">{{item.name_en}}</p>
-          </nuxt-link>
-        </div>
+      <el-row :gutter="0" type="flex" justify="center">
 
-        <div class="logo">
-          <p style="font-size: 70px;font-family: 'Times New Roman',serif;color: purple">B&R</p>
-        </div>
+        <el-col :xs="11" :sm="10" :md="9" :lg="8" :xl="7">
+          <div v-for="item in titles1"
+               v-bind:class="{'selected':index===item.key,'mousein':mouseindex===item.key}"
+               @mouseenter="mouseenter(item.key)" @mouseleave="mouseleave()" class="title-item">
+            <nuxt-link v-bind:to="item.key" class="title-item-link">
+              <p class="c-title">{{item.name_cn}}</p>
+              <p class="e-title">{{item.name_en}}</p>
+            </nuxt-link>
+          </div>
+        </el-col>
 
-        <div v-for="item in titles2"
-             v-bind:class="{'selected':index===item.key,'mousein':mouseindex===item.key}"
-             @mouseenter="mouseenter(item.key)" @mouseleave="mouseleave()" class="title-item">
-          <nuxt-link v-bind:to="item.key" class="title-item-link">
-            <p class="c-title">{{item.name_cn}}</p>
-            <p class="e-title">{{item.name_en}}</p>
-          </nuxt-link>
-        </div>
+        <el-col :span="2">
+          <div class="logo">
+            <p style="">B&R</p>
+          </div>
+        </el-col>
 
-      </nav>
+        <el-col :xs="11" :sm="10" :md="9" :lg="8" :xl="7">
+          <div v-for="item in titles2"
+               v-bind:class="{'selected':index===item.key,'mousein':mouseindex===item.key}"
+               @mouseenter="mouseenter(item.key)" @mouseleave="mouseleave()" class="title-item">
+            <nuxt-link v-bind:to="item.key" class="title-item-link">
+              <p class="c-title">{{item.name_cn}}</p>
+              <p class="e-title">{{item.name_en}}</p>
+            </nuxt-link>
+          </div>
+        </el-col>
+
+      </el-row>
+
+
     </el-header>
     <el-header height="100px"></el-header> <!--placeholder-->
   </el-container>
@@ -96,27 +105,29 @@
     left: 0;
     right: 0;
     top: 0;
-    background-color: rgba(237, 237, 237);
+    background-color: rgba(237, 237, 237, 1);
+    font-weight: 500;
   }
 
-  .navbar {
-    font-weight: 500;
-    width: 1200px;
+  .el-row, .el-col {
     height: 100%;
-    margin: 0 auto 0 auto;
-    display: block;
-    background: none;
-    border: none;
-    padding: 0;
   }
+
+
+  .el-col {
+    display: flex;
+    justify-content: center;
+  }
+
 
   .logo {
     height: 100%;
-    width: 12%;
     display: inline-flex;
     justify-content: center;
     align-items: center;
-    float: left;
+    font-size: 40px;
+    font-family: 'Times New Roman', serif;
+    color: purple
   }
 
 
@@ -124,7 +135,7 @@
     float: left;
     display: table;
     list-style: none;
-    width: 14%;
+    width: 30%;
     height: 100%;
     text-align: center;
   }
@@ -138,6 +149,7 @@
     display: table-cell;
     vertical-align: middle;
     text-decoration: none;
+
   }
 
   .c-title {
