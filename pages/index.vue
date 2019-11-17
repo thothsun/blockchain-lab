@@ -9,7 +9,7 @@
 
 
           <div style="display: flex;justify-content: center;margin-top: 10px">
-            <el-image src="~/static/college.png"/>
+            <el-image src="http://sc.neu.edu.cn/_upload/tpl/00/0d/13/template13/htmlRes/b_banner.jpg"/>
           </div>
 
           <h1>实验室</h1>

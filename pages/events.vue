@@ -8,8 +8,6 @@
           <h1>小组讨论</h1>
           <div style="width: 80%;margin: 0 auto">
             <el-divider></el-divider>
-            <el-image src="http://b-ssl.duitang.com/uploads/item/201507/27/20150727155835_kWfur.jpeg"/>
-            <el-divider></el-divider>
             <el-image src="http://img.zcool.cn/community/014146554332d30000019ae935ad6b.jpg"/>
             <el-divider></el-divider>
             <el-image src="http://clubimg.club.vmall.com/data/attachment/forum/201901/29/1720164hfdfiqntsewh9og.png"/>
@@ -19,18 +17,16 @@
             <el-image src="http://bbsfiles.vivo.com.cn/vivobbs/attachment/forum/201910/06/201006fdl7kesx7fm7j5sk.jpg"/>
             <el-divider></el-divider>
             <el-image src="http://p.qpic.cn/dnfbbspic/0/dnfbbs_dnfbbs_dnf_gamebbs_qq_com_forum_201910_17_082503ztpxsgizux3qwxsk.jpg/0"/>
-            <el-divider></el-divider>
-            <el-image src="http://b-ssl.duitang.com/uploads/item/201412/06/20141206031537_XhAR2.jpeg"/>
           </div>
 
           <h1>团队建设</h1>
           <div style="width: 80%;margin: 0 auto">
             <el-divider></el-divider>
-            <el-image src="http://b-ssl.duitang.com/uploads/item/201507/27/20150727155835_kWfur.jpeg"/>
+            <el-image src="http://faculty.neu.edu.cn/swc/guogb/images/visitings/NEU-2018-9.jpg"/>
             <el-divider></el-divider>
-            <el-image src="http://img.zcool.cn/community/014146554332d30000019ae935ad6b.jpg"/>
+            <el-image src="http://faculty.neu.edu.cn/swc/guogb/images/visitings/NTU-UNSW-2018-11.jpg"/>
             <el-divider></el-divider>
-            <el-image src="http://clubimg.club.vmall.com/data/attachment/forum/201901/29/1720164hfdfiqntsewh9o.png"/>
+            <el-image src="http://faculty.neu.edu.cn/swc/guogb/images/visitings/QT-2018-5.jpg"/>
             <el-divider></el-divider>
             <el-image src="http://attach.bbs.miui.com/forum/201811/19/072123rjmrmsjnuv3msepw.jpeg"/>
             <el-divider></el-divider>
