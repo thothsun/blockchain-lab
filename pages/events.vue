@@ -52,8 +52,8 @@
 </template>
 
 <script>
-  import myheader from '~/components/header.vue'
-  import myfooter from '~/components/footer.vue'
+  import myheader from '~/components/myheader.vue'
+  import myfooter from '~/components/myfooter.vue'
 
   export default {
     name: "events",

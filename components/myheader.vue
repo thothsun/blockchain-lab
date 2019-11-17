@@ -52,6 +52,7 @@
 
 <script>
   export default {
+    name: 'myheader',
     props: {
       index: {
         type: String,
