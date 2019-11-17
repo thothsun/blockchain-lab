@@ -1,8 +1,8 @@
 <template>
   <div>
     <nuxt/>
-    <a href="https://github.com/Sun-Shuai/blockchain-lab">
-      <el-image style="position: fixed; top: 0; right: 0; border: 0;z-index: 9999"
+    <a href="https://github.com/Sun-Shuai/blockchain-lab" target="_blank">
+      <el-image style="position: fixed; top: 0; right: 0; border: 0;z-index: 9999;height: 100px;width: 100px"
            src="github.png"
                 alt="Fork me on GitHub" ></el-image>
     </a>
