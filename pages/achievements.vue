@@ -13,7 +13,7 @@
             </li>
           </ul>
 
-          <el-divider></el-divider>
+          <el-divider><i class="el-icon-notebook-2"></i></el-divider>
 
 
           <h1>申请专利</h1>
@@ -24,7 +24,7 @@
             </li>
           </ul>
 
-          <el-divider></el-divider>
+          <el-divider><i class="el-icon-copy-document"></i></el-divider>
 
           <h1>获得奖项</h1>
 
