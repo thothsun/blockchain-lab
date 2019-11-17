@@ -4,9 +4,25 @@
     <el-main class="main-content">
       <el-row :gutter="0" type="flex" justify="center">
         <el-col :xs="20" :sm="18" :md="16" :lg="14" :xl="12">
-          <h1>开发中.</h1>
-
-
+          <h1>常用链接</h1>
+          <div style="padding: 10px">
+            <ul>
+              <li><a target="_blank" href="http://faculty.neu.edu.cn/swc/guogb/docs/ccf-2019.pdf">中国计算机学会推荐国际学术会议和期刊目录 - 2019</a></li>
+              <li><a target="_blank" href="http://www.letpub.com.cn/index.php?page=journalapp">中科院分区查询</a></li>
+              <li><a target="_blank" href="http://www.letpub.com.cn/index.php?page=grant">国家自然基金项目查询</a></li>
+              <li><a target="_blank" href="http://faculty.neu.edu.cn/sites.htm">东北大学教师列表</a></li>
+              <li><a target="_blank" href="http://faculty.neu.edu.cn/swc/guogb/docs/cal2018-2019.jpg">2018 - 2019学年校历查询</a></li>
+            </ul>
+          </div>
+          <h1>合作交流</h1>
+          <div style="padding: 10px">
+            <ul>
+              <li><a target="_blank" href="https://www.ntu.edu.sg/home/zhangj/" >Jie Zhang</a></li>
+              <li><a target="_blank" href="https://www.ntu.edu.sg/home/boan/" >Bo An</a></li>
+              <li><a target="_blank" href="http://l1apc2.ens.utulsa.edu/~sandip/" >Sandip Sen</a></li>
+              <li><a target="_blank" href="http://www.ntulily.org/ascymiao/" >Miao Chun Yan</a></li>
+            </ul>
+          </div>
         </el-col>
       </el-row>
     </el-main>
@@ -31,4 +47,12 @@
 
 <style scoped>
 
+  li{
+    font-size: 1.3rem;
+    line-height: 1.7;
+  }
+
+  a{
+    text-decoration: none;
+  }
 </style>
