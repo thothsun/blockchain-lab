@@ -9,7 +9,7 @@
 
 
           <div style="display: flex;justify-content: center;margin-top: 10px">
-            <img src="~/static/college.png"/>
+            <el-image src="~/static/college.png"/>
           </div>
 
           <h1>实验室</h1>
