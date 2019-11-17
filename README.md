@@ -1,8 +1,22 @@
-# blockchain-lab
 
-> lab homepage
 
-## Build Setup
+***
+
+```
+ @author: sunshuai
+ @contact: sunshuai.edu@gmail.com
+ @desc: laboratory homepage
+```
+
+***
+
+[Vue.js](https://cn.vuejs.org/) + [Vue CLI](https://cli.vuejs.org/) + [Vue Router](https://router.vuejs.org/zh/) + [Vuex](https://vuex.vuejs.org/) + [Nuxt.js](https://nuxtjs.org/) + [Element UI](https://element.eleme.cn/#/zh-CN/component/installation) 
+
+
+***
+
+#### Build Setup
+
 
 ``` bash
 # install dependencies
@@ -20,3 +34,5 @@ $ npm run generate
 ```
 
 For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
+
+***
