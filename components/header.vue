@@ -1,43 +1,51 @@
 <template>
-  <el-container>
-    <el-header class="header_bg" height="100px">
-
-      <el-row :gutter="0" type="flex" justify="center">
-
-        <el-col :xs="11" :sm="10" :md="9" :lg="8" :xl="7">
-          <div v-for="item in titles1"
-               v-bind:class="{'selected':index===item.key,'mousein':mouseindex===item.key}"
-               @mouseenter="mouseenter(item.key)" @mouseleave="mouseleave()" class="title-item">
-            <nuxt-link v-bind:to="item.key" class="title-item-link">
-              <p class="c-title">{{item.name_cn}}</p>
-              <p class="e-title">{{item.name_en}}</p>
-            </nuxt-link>
-          </div>
-        </el-col>
-
-        <el-col :span="2" class="hidden-sm-and-down">
-          <div class="logo">
-            <p style="">B&R</p>
-          </div>
-        </el-col>
-
-        <el-col :xs="11" :sm="10" :md="9" :lg="8" :xl="7">
-          <div v-for="item in titles2"
-               v-bind:class="{'selected':index===item.key,'mousein':mouseindex===item.key}"
-               @mouseenter="mouseenter(item.key)" @mouseleave="mouseleave()" class="title-item">
-            <nuxt-link v-bind:to="item.key" class="title-item-link">
-              <p class="c-title">{{item.name_cn}}</p>
-              <p class="e-title">{{item.name_en}}</p>
-            </nuxt-link>
-          </div>
-        </el-col>
-
-      </el-row>
 
 
-    </el-header>
-    <el-header height="100px"></el-header> <!--placeholder-->
+  <el-container class="navi navi-outside-wrapper">
+    <div class="navi-wrapper">
+      <div class="navi-background">
+
+
+        <div class="content">
+          <el-row :gutter="0" type="flex" justify="center">
+
+            <el-col :xs="11" :sm="10" :md="9" :lg="8" :xl="7">
+              <div v-for="item in titles1"
+                   v-bind:class="{'selected':index===item.key,'mousein':mouseindex===item.key}"
+                   @mouseenter="mouseenter(item.key)" @mouseleave="mouseleave()" class="title-item">
+                <nuxt-link v-bind:to="item.key" class="title-item-link">
+                  <p class="c-title">{{item.name_cn}}</p>
+                  <p class="e-title">{{item.name_en}}</p>
+                </nuxt-link>
+              </div>
+            </el-col>
+
+            <el-col :span="2" class="hidden-sm-and-down">
+              <div class="logo">
+                <p style="">B&R</p>
+              </div>
+            </el-col>
+
+            <el-col :xs="11" :sm="10" :md="9" :lg="8" :xl="7">
+              <div v-for="item in titles2"
+                   v-bind:class="{'selected':index===item.key,'mousein':mouseindex===item.key}"
+                   @mouseenter="mouseenter(item.key)" @mouseleave="mouseleave()" class="title-item">
+                <nuxt-link v-bind:to="item.key" class="title-item-link">
+                  <p class="c-title">{{item.name_cn}}</p>
+                  <p class="e-title">{{item.name_en}}</p>
+                </nuxt-link>
+              </div>
+            </el-col>
+
+          </el-row>
+        </div>
+
+
+      </div>
+    </div>
   </el-container>
+
+
 </template>
 
 <!--todo 鼠标进入字体变色-->
@@ -98,17 +106,11 @@
   }
 </script>
 
+
+<style scoped src="assets/navi.css"/>
+
 <style scoped>
 
-  .header_bg {
-    position: fixed;
-    left: 0;
-    right: 0;
-    top: 0;
-    background-color: rgba(237, 237, 237, 1);
-    font-weight: 500;
-    z-index: 999;
-  }
 
   .el-row, .el-col {
     height: 100%;
@@ -120,6 +122,12 @@
     justify-content: center;
   }
 
+
+  .content {
+    font-weight: 500;
+    height: 100%;
+    width: 100%;
+  }
 
   .logo {
     height: 100%;

@@ -1,0 +1,137 @@
+.navi {
+    -webkit-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    text-size-adjust: 100%
+}
+
+.navi {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    min-width: 1024px;
+    z-index: 9997
+}
+
+.navi {
+    position: -webkit-sticky;
+    position: sticky
+}
+
+.navi, .navi:before, .navi:after, .navi *, .navi *:before, .navi *:after {
+    -webkit-box-sizing: content-box;
+    box-sizing: content-box;
+    margin: 0;
+    padding: 0;
+    pointer-events: auto;
+    letter-spacing: normal
+}
+
+.navi-wrapper {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+    min-height: 100%;
+    z-index: 1
+}
+
+
+.navi-background {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    -webkit-transition: background-color 0.5s cubic-bezier(0.28, 0.11, 0.32, 1);
+    transition: background-color 0.5s cubic-bezier(0.28, 0.11, 0.32, 1)
+}
+
+.navi-background:after {
+    background-color: rgba(29, 29, 31, 0.2)
+}
+
+
+.navi-background:after {
+    background-color: rgba(255, 255, 255, 0.4)
+}
+
+.navi-background {
+    background-color: rgba(255, 255, 255, 0.9)
+}
+
+.navi-background:after {
+    background-color: rgba(29, 29, 31, 0.2)
+}
+
+@supports ((-webkit-backdrop-filter: initial) or (backdrop-filter: initial)) {
+    .navi-background {
+        -webkit-backdrop-filter: saturate(180%) blur(20px);
+        backdrop-filter: saturate(180%) blur(20px);
+        background-color: rgba(255, 255, 255, 0.7)
+    }
+}
+
+.navi-background {
+    -webkit-backdrop-filter: initial;
+    backdrop-filter: initial;
+    background-color: rgba(255, 255, 255, 0.9)
+}
+
+
+.navi.navi-outside-wrapper .navi-background {
+    background-color: rgba(255, 255, 255, 0.9);
+    -webkit-transition: background-color 0.5s cubic-bezier(0.28, 0.11, 0.32, 1);
+    transition: background-color 0.5s cubic-bezier(0.28, 0.11, 0.32, 1);
+    -webkit-transition-property: background-color, -webkit-backdrop-filter;
+    transition-property: background-color, -webkit-backdrop-filter;
+    transition-property: background-color, backdrop-filter;
+    transition-property: background-color, backdrop-filter, -webkit-backdrop-filter
+}
+
+.navi.navi-outside-wrapper .navi-background:after {
+    background-color: rgba(29, 29, 31, 0.1)
+}
+
+@supports ((-webkit-backdrop-filter: initial) or (backdrop-filter: initial)) {
+    .navi.navi-outside-wrapper .navi-background {
+        -webkit-backdrop-filter: saturate(180%) blur(20px);
+        backdrop-filter: saturate(180%) blur(20px);
+        background-color: rgba(255, 255, 255, 0.7)
+    }
+}
+
+.navi-outside-wrapper .navi-background {
+    -webkit-backdrop-filter: initial;
+    backdrop-filter: initial;
+    background-color: rgba(255, 255, 255, 0.9)
+}
+
+.navi-background:after {
+    margin-left: -490px;
+    left: 50%;
+    content: "";
+    display: block;
+    position: absolute;
+    top: 100%;
+    width: 980px;
+    height: 1px;
+    z-index: 1
+}
+
+
+.navi-background:after {
+    margin-left: 0;
+    left: 0;
+    width: 100%
+}
+
+.navi-outside-wrapper .navi-background:after {
+    margin-left: 0;
+    left: 0;
+    width: 100%
+}

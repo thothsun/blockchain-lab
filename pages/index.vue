@@ -7,6 +7,11 @@
       <el-row :gutter="0" type="flex" justify="center">
         <el-col :xs="20" :sm="18" :md="16" :lg="14" :xl="12">
 
+
+          <div style="display: flex;justify-content: center;margin-top: 10px">
+            <img src="~/static/college.png"/>
+          </div>
+
           <h1>实验室</h1>
 
           <p style="text-indent:2em">
