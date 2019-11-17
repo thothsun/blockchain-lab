@@ -1,6 +1,4 @@
 <template>
-
-
   <el-container class="navi navi-outside-wrapper">
     <div class="navi-wrapper">
       <div class="navi-background">

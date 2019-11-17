@@ -24,7 +24,7 @@
   }
 
   .main-content {
-    min-height: calc(100vh - 160px) /* 160px = header 100px + footer 60px */
+    min-height: calc(100vh - 130px) /* 160px = header 70px + footer 60px */
   }
 
   h1 {
