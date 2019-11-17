@@ -1,22 +1,35 @@
 <template>
 
-  <div
-    style="margin-top:50px; height: 200px;width: 800px;display: flex;justify-content: space-around;align-items: center;border: 1px #DCDFE6 solid; border-radius: 4px;box-shadow: 0 2px 12px 0 rgba(0, 0, 0, 0.1);padding: 10px">
-    <div style="height: 150px;width: 150px;">
-      <div style="height: 100%;width: 100%">
-        <el-avatar
-          style="width: 100%;height: 100%;font-size: 10rem;display: flex;justify-content: center;align-items: center" :src="avatar">
-          S
-        </el-avatar>
-      </div>
+  <div class="container">
+
+
+    <div style="height: 150px;width: 150px">
+      <el-avatar
+        style="width: 150px;height: 150px;font-size: 10rem;display: flex;justify-content: center;align-items: center"
+        :src="avatar">S
+      </el-avatar>
     </div>
 
-    <div style="width: 1px;height:80%;background-color: purple;"></div>
 
-    <div style="display: inline-block;height: 180px;width: 580px">
+    <div style="width: 1px;height:80%;background-color: purple;margin: 0 10px"></div>
 
-      <div style="height: 20%;display: flex;align-items: center;margin: 10px 0">
-        <b style="font-size: 2rem">{{name}}</b> &nbsp;&nbsp;&nbsp;&nbsp; <b>{{position}}</b> {{email}}
+
+    <div style="display: inline-block;height: 150px;width: 580px">
+
+      <div style="height: 20%;display: flex;justify-content: space-between;align-items: center;margin: 10px 0">
+
+        <div>
+          <b style="font-size: 2rem;white-space: nowrap">{{name}}</b>
+          &nbsp;&nbsp;&nbsp;&nbsp;
+          <b style="white-space: nowrap">{{position}}</b>
+        </div>
+
+
+        <div>
+          <i class="el-icon-message" style="color: #909399"></i>
+          &nbsp;&nbsp;
+          {{email}}
+        </div>
       </div>
 
 
@@ -42,5 +55,19 @@
 </script>
 
 <style scoped>
+
+  .container {
+    margin: 10px 0;
+    height: 200px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px #DCDFE6 solid;
+    border-radius: 4px;
+    padding: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .12), 0 0 6px rgba(0, 0, 0, .04);
+    overflow: hidden;
+  }
 
 </style>

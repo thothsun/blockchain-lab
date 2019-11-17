@@ -16,6 +16,8 @@
             description="1986年出生于吉林长春，博士，副教授，信息安全系主任。2015年10月通过东北大学引进人才的方式任教于软件学院信息安全系。 2014年11月毕业于新加坡南洋理工大学计算机工程学院，获得博士学位，导师是 Associate professor Jie Zhang。 2010年7月毕业于哈尔滨工业大学，获得学士学位，导师肖立伊教授。"
           ></member>
 
+          <el-divider></el-divider>
+
           <h1>2016级硕士研究生</h1>
 
           <member
@@ -34,6 +36,7 @@
             description=""
           ></member>
 
+          <el-divider></el-divider>
 
           <h1>2017级硕士研究生</h1>
 
@@ -54,6 +57,9 @@
           ></member>
 
 
+          <el-divider></el-divider>
+
+
           <h1>2018级硕士研究生</h1>
 
 
@@ -68,7 +74,7 @@
 
           <member
             name="孙帅"
-            avatar=""
+            avatar="avatar/sunshuai.jpg"
             position="2018级硕士研究生"
             email="sunshuai.edu@gmail.com"
             description=""
@@ -82,6 +88,9 @@
             email=""
             description=""
           ></member>
+
+
+          <el-divider></el-divider>
 
 
           <h1>2019级硕士研究生</h1>
@@ -118,9 +127,10 @@
             description=""
           ></member>
 
+          <el-divider></el-divider>
+
           <h1>本科生</h1>
 
-
           <member
             name="Name"
             avatar=""
@@ -144,6 +154,8 @@
             email=""
             description=""
           ></member>
+
+          <el-divider></el-divider>
 
           <h1>留学生</h1>
 
@@ -191,4 +203,7 @@
 
 <style scoped>
 
+  h1 {
+    width: 100%;
+  }
 </style>
