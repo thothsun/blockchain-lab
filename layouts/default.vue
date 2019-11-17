@@ -1,6 +1,11 @@
 <template>
   <div>
     <nuxt/>
+    <a href="https://github.com/Sun-Shuai/blockchain-lab">
+      <img style="position: fixed; top: 0; right: 0; border: 0;z-index: 9999"
+           src="github.png"
+           alt="Fork me on GitHub" >
+    </a>
   </div>
 </template>
 
