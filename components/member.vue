@@ -4,7 +4,7 @@
 
 
     <div style="height: 150px;width: 150px">
-      <el-avatar style="font-size: 10rem;display: flex;justify-content: center;align-items: center"
+      <el-avatar style="font-size: 10rem;display: flex;justify-content: center;align-items: center;border: 1px solid darkgrey"
         :size="150"
         shape="circle"
         fit="contain"
