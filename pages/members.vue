@@ -8,13 +8,13 @@
             style="position: fixed;display: flex;justify-content: center;align-items:center;width: 200px;height: 500px">
 
             <ul class="ul-navi">
-              <li :class="{active: active===0}">实验室负责人</li>
-              <li :class="{active: active===1}">2016级硕士研究生</li>
-              <li :class="{active: active===2}">2017级硕士研究生</li>
-              <li :class="{active: active===3}">2018级硕士研究生</li>
-              <li :class="{active: active===4}">2019级硕士研究生</li>
-              <li :class="{active: active===5}">本科生</li>
-              <li :class="{active: active===6}">留学生</li>
+              <li :class="{active: active===0}" @click="scrollTo('#h1-teacher')">实验室负责人</li>
+              <li :class="{active: active===1}" @click="scrollTo('#h1-master-2016')">2016级硕士研究生</li>
+              <li :class="{active: active===2}" @click="scrollTo('#h1-master-2017')">2017级硕士研究生</li>
+              <li :class="{active: active===3}" @click="scrollTo('#h1-master-2018')">2018级硕士研究生</li>
+              <li :class="{active: active===4}" @click="scrollTo('#h1-master-2019')">2019级硕士研究生</li>
+              <li :class="{active: active===5}" @click="scrollTo('#h1-stu')">本科生</li>
+              <li :class="{active: active===6}" @click="scrollTo('#h1-abroad')">留学生</li>
             </ul>
 
           </div>
@@ -24,7 +24,7 @@
         <el-col :xs="18" :sm="16" :md="14" :lg="12" :xl="10"
                 style="display: flex;justify-content: center;flex-wrap: wrap;" class="wrapper">
 
-          <h1>实验室负责人</h1>
+          <h1 id="h1-teacher">实验室负责人</h1>
 
           <member
             name="刘园"
@@ -37,7 +37,7 @@
 
           <el-divider></el-divider>
 
-          <h1>2016级硕士研究生</h1>
+          <h1 id="h1-master-2016">2016级硕士研究生</h1>
 
           <member
             name="白金"
@@ -59,7 +59,7 @@
 
           <el-divider></el-divider>
 
-          <h1>2017级硕士研究生</h1>
+          <h1 id="h1-master-2017">2017级硕士研究生</h1>
 
           <member
             name="杨天知"
@@ -83,7 +83,7 @@
           <el-divider></el-divider>
 
 
-          <h1>2018级硕士研究生</h1>
+          <h1 id="h1-master-2018">2018级硕士研究生</h1>
 
 
           <member
@@ -119,7 +119,7 @@
           <el-divider></el-divider>
 
 
-          <h1>2019级硕士研究生</h1>
+          <h1 id="h1-master-2019">2019级硕士研究生</h1>
 
           <member
             name="艾峥鹏"
@@ -159,7 +159,7 @@
 
           <el-divider></el-divider>
 
-          <h1>本科生</h1>
+          <h1 id="h1-stu">本科生</h1>
 
           <member
             name="Name"
@@ -190,7 +190,7 @@
 
           <el-divider></el-divider>
 
-          <h1>留学生</h1>
+          <h1 id="h1-abroad">留学生</h1>
 
           <member
             name="Name"
@@ -247,7 +247,6 @@
         const navContents = document.querySelectorAll('.wrapper h1');
         // 所有锚点元素的 offsetTop
         const offsetTopArr = [];
-        console.log('offsetTopArr',offsetTopArr)
         navContents.forEach(item => {
           offsetTopArr.push(item.offsetTop)
         });
@@ -262,10 +261,62 @@
             navIndex = n
           }
         }
-        console.log(navIndex)
         // 把下标赋值给 vue 的 data
         this.active = navIndex
+      },
+      // 跳转到指定索引的元素
+      scrollTo(content_id) {
+        // 获取目标的 offsetTop
+        // css选择器是从 1 开始计数，我们是从 0 开始，所以要 +1
+
+        const targetOffsetTop = document.querySelector(content_id).offsetTop
+        // 获取当前 offsetTop
+        let scrollTop = document.documentElement.scrollTop || document.body.scrollTop
+        // 定义一次跳 50 个像素，数字越大跳得越快，但是会有掉帧得感觉
+        const STEP = 50
+        // 判断是往下滑还是往上滑
+        if (scrollTop > targetOffsetTop) {
+          // 往上滑
+          smoothUp()
+        } else {
+          // 往下滑
+          smoothDown()
+        }
+
+        // 定义往下滑函数
+        function smoothDown() {
+          // 如果当前 scrollTop 小于 targetOffsetTop 说明视口还没滑到指定位置
+          if (scrollTop < targetOffsetTop) {
+            // 如果和目标相差距离大于等于 STEP 就跳 STEP
+            // 否则直接跳到目标点，目标是为了防止跳过了。
+            if (targetOffsetTop - scrollTop >= STEP) {
+              scrollTop += STEP
+            } else {
+              scrollTop = targetOffsetTop
+            }
+            document.body.scrollTop = scrollTop
+            document.documentElement.scrollTop = scrollTop
+            // 屏幕在绘制下一帧时会回调传给 requestAnimationFrame 的函数
+            // 关于 requestAnimationFrame 可以自己查一下，在这种场景下，相比 setInterval 性价比更高
+            requestAnimationFrame(smoothDown)
+          }
+        }
+
+        // 定义往上滑函数
+        function smoothUp() {
+          if (scrollTop > targetOffsetTop) {
+            if (scrollTop - targetOffsetTop >= STEP) {
+              scrollTop -= STEP
+            } else {
+              scrollTop = targetOffsetTop
+            }
+            document.body.scrollTop = scrollTop
+            document.documentElement.scrollTop = scrollTop
+            requestAnimationFrame(smoothUp)
+          }
+        }
       }
+
     }
   }
 </script>
