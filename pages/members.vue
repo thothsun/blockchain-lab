@@ -104,12 +104,12 @@
           <h1>2019级硕士研究生</h1>
 
           <member
-            name="艾铮鹏"
-            avatar=""
+            name="艾峥鹏"
+            avatar="avatar/aizhengpeng.jpg"
             letter="A"
             position="2019级硕士研究生"
-            email=""
-            description=""
+            email="im@aizhengpeng.cn"
+            description="1998年出生于江西修水，工学学士，软硕1901班长。2019年9月通过推荐免试的方式攻读东北大学软件学院软件工程专业。2019年6月本科毕业于东北大学软件学院信息安全专业，获得学士学位，导师是刘园副教授。个人主页：小艾的技术栈（https://aizhengpeng.cn）。"
           ></member>
 
           <member
