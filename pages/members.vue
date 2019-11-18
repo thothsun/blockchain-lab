@@ -5,16 +5,16 @@
       <el-row :gutter="0" type="flex" justify="center">
         <el-col :span="4" class="hidden-sm-and-down" style="min-width: 240px">
           <div
-            style="position: fixed;display: flex;justify-content: center;align-items:center;width: 200px;height: 500px;">
+            style="position: fixed;display: flex;justify-content: center;align-items:center;width: 200px;height: 500px">
 
-            <ul style="line-height: 4;font-size: 1.5rem;font-weight: bold;color: #909399">
-              <li>实验室负责人</li>
-              <li>2016级硕士研究生</li>
-              <li>2017级硕士研究生</li>
-              <li>2018级硕士研究生</li>
-              <li>2019级硕士研究生</li>
-              <li>本科生</li>
-              <li>留学生</li>
+            <ul class="ul-navi">
+              <li :class="{active: active===0}">实验室负责人</li>
+              <li :class="{active: active===1}">2016级硕士研究生</li>
+              <li :class="{active: active===2}">2017级硕士研究生</li>
+              <li :class="{active: active===3}">2018级硕士研究生</li>
+              <li :class="{active: active===4}">2019级硕士研究生</li>
+              <li :class="{active: active===5}">本科生</li>
+              <li :class="{active: active===6}">留学生</li>
             </ul>
 
           </div>
@@ -22,7 +22,7 @@
 
 
         <el-col :xs="18" :sm="16" :md="14" :lg="12" :xl="10"
-                style="display: flex;justify-content: center;flex-wrap: wrap;">
+                style="display: flex;justify-content: center;flex-wrap: wrap;" class="wrapper">
 
           <h1>实验室负责人</h1>
 
@@ -231,7 +231,41 @@
       myfooter
     },
     data() {
-      return {}
+      return {
+        active: 0
+      }
+    },
+    mounted() {
+      window.addEventListener('scroll', this.onScroll)
+    },
+    destroyed() {
+      window.removeEventListener('scroll', this.onScroll)
+    },
+    methods: {
+      onScroll() {
+        // 获取所有锚点元素
+        const navContents = document.querySelectorAll('.wrapper h1');
+        // 所有锚点元素的 offsetTop
+        const offsetTopArr = [];
+        console.log('offsetTopArr',offsetTopArr)
+        navContents.forEach(item => {
+          offsetTopArr.push(item.offsetTop)
+        });
+        // 获取当前文档流的 scrollTop
+        const scrollTop = document.documentElement.scrollTop || document.body.scrollTop;
+        // 定义当前点亮的导航下标
+        let navIndex = 0;
+        for (let n = 0; n < offsetTopArr.length; n++) {
+          // 如果 scrollTop 大于等于第 n 个元素的 offsetTop 则说明 n-1 的内容已经完全不可见
+          // 那么此时导航索引就应该是 n 了
+          if (scrollTop >= offsetTopArr[n]) {
+            navIndex = n
+          }
+        }
+        console.log(navIndex)
+        // 把下标赋值给 vue 的 data
+        this.active = navIndex
+      }
     }
   }
 </script>
@@ -240,5 +274,18 @@
 
   h1 {
     width: 100%;
+  }
+
+  .ul-navi {
+    line-height: 4;
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: #909399;
+    width: 100%;
+  }
+
+  .ul-navi .active {
+    font-size: 1.5rem;
+    color: #303133;
   }
 </style>
