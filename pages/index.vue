@@ -8,9 +8,11 @@
         <el-col :xs="20" :sm="18" :md="16" :lg="14" :xl="12">
 
 
-          <div style="display: flex;justify-content: center;margin-top: 10px">
-            <el-image src="http://sc.neu.edu.cn/_upload/tpl/00/0d/13/template13/htmlRes/b_banner.jpg"/>
+          <div style="display: flex;justify-content: center;width: 80%;max-width:800px;margin: 10px auto">
+            <el-image src="group-crop.jpg"/>
           </div>
+
+          <el-divider></el-divider>
 
           <h1>实验室</h1>
 
