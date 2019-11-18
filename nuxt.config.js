@@ -4,7 +4,7 @@ export default {
   ** Headers of the page
   */
   head: {
-    title: '区块链实验室',
+    title: '区块链研究组',
     meta: [
       {charset: 'utf-8'},
       {hid: 'description', name: 'description', content: process.env.npm_package_description || ''}

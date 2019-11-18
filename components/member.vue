@@ -4,9 +4,12 @@
 
 
     <div style="height: 150px;width: 150px">
-      <el-avatar
-        style="width: 150px;height: 150px;font-size: 10rem;display: flex;justify-content: center;align-items: center"
-        :src="avatar">{{letter}}
+      <el-avatar style="font-size: 10rem;display: flex;justify-content: center;align-items: center"
+        :size="150"
+        shape="circle"
+        fit="contain"
+        :src="avatar"
+      >{{letter}}
       </el-avatar>
     </div>
 
