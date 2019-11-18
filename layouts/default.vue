@@ -1,14 +1,24 @@
 <template>
   <div>
+    <loading/>
     <nuxt/>
     <a href="https://github.com/Sun-Shuai/blockchain-lab" target="_blank">
       <el-image style="position: fixed; top: 0; right: 0; border: 0;z-index: 9999;height: 100px;width: 100px"
-           src="github.png"
-                alt="Fork me on GitHub" ></el-image>
+                src="github.png"
+                alt="Fork me on GitHub"></el-image>
     </a>
   </div>
 </template>
 
+<script>
+  import Loading from '~/components/loading.vue'
+
+  export default {
+    components: {
+      Loading
+    }
+  }
+</script>
 <style>
   html {
     font-size: 62.5%;
@@ -18,7 +28,7 @@
     -moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased;
     box-sizing: border-box;
-    font-family: "Helvetica Neue",Helvetica,"PingFang SC","Hiragino Sans GB","Microsoft YaHei","微软雅黑",Arial,sans-serif;
+    font-family: "Helvetica Neue", Helvetica, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "微软雅黑", Arial, sans-serif;
   }
 
 
@@ -38,7 +48,7 @@
     font-size: 2rem;
   }
 
-  h4{
+  h4 {
     font-size: 1.6rem;
     color: #606266;
   }
