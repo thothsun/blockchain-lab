@@ -3,7 +3,25 @@
     <myheader index="/members"></myheader>
     <el-main class="main-content">
       <el-row :gutter="0" type="flex" justify="center">
-        <el-col :xs="20" :sm="18" :md="16" :lg="14" :xl="12"
+        <el-col :span="4" class="hidden-sm-and-down" style="min-width: 240px">
+          <div
+            style="position: fixed;display: flex;justify-content: center;align-items:center;width: 200px;height: 500px;">
+
+            <ul style="line-height: 4;font-size: 1.5rem;font-weight: bold;color: #909399">
+              <li>实验室负责人</li>
+              <li>2016级硕士研究生</li>
+              <li>2017级硕士研究生</li>
+              <li>2018级硕士研究生</li>
+              <li>2019级硕士研究生</li>
+              <li>本科生</li>
+              <li>留学生</li>
+            </ul>
+
+          </div>
+        </el-col>
+
+
+        <el-col :xs="18" :sm="16" :md="14" :lg="12" :xl="10"
                 style="display: flex;justify-content: center;flex-wrap: wrap;">
 
           <h1>实验室负责人</h1>
