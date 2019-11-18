@@ -328,11 +328,15 @@
   }
 
   .ul-navi {
-    line-height: 4;
     font-size: 1.3rem;
     font-weight: bold;
     color: #909399;
     width: 100%;
+  }
+
+  .ul-navi li{
+    cursor:pointer;
+    margin: 30px 0;
   }
 
   .ul-navi .active {
