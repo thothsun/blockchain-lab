@@ -7,20 +7,20 @@
           <h1>常用链接</h1>
           <div style="padding: 10px">
             <ul>
-              <li><a target="_blank" href="http://faculty.neu.edu.cn/swc/guogb/docs/ccf-2019.pdf">中国计算机学会推荐国际学术会议和期刊目录 - 2019</a></li>
-              <li><a target="_blank" href="http://www.letpub.com.cn/index.php?page=journalapp">中科院分区查询</a></li>
-              <li><a target="_blank" href="http://www.letpub.com.cn/index.php?page=grant">国家自然基金项目查询</a></li>
-              <li><a target="_blank" href="http://faculty.neu.edu.cn/sites.htm">东北大学教师列表</a></li>
-              <li><a target="_blank" href="http://faculty.neu.edu.cn/swc/guogb/docs/cal2018-2019.jpg">2018 - 2019学年校历查询</a></li>
+              <li> <el-link href="http://faculty.neu.edu.cn/swc/guogb/docs/ccf-2019.pdf" target="_blank">中国计算机学会推荐国际学术会议和期刊目录 - 2019</el-link></li>
+              <li> <el-link href="http://www.letpub.com.cn/index.php?page=journalapp" target="_blank">中科院分区查询</el-link></li>
+              <li> <el-link href="http://www.letpub.com.cn/index.php?page=grant" target="_blank">国家自然基金项目查询</el-link></li>
+              <li> <el-link href="http://faculty.neu.edu.cn/sites.htm" target="_blank">东北大学教师列表</el-link></li>
+              <li> <el-link href="http://faculty.neu.edu.cn/swc/guogb/docs/cal2018-2019.jpg" target="_blank">东北大学2018 - 2019学年校历查询</el-link></li>
             </ul>
           </div>
           <h1>合作交流</h1>
           <div style="padding: 10px">
             <ul>
-              <li><a target="_blank" href="https://www.ntu.edu.sg/home/zhangj/" >Jie Zhang</a></li>
-              <li><a target="_blank" href="https://www.ntu.edu.sg/home/boan/" >Bo An</a></li>
-              <li><a target="_blank" href="http://l1apc2.ens.utulsa.edu/~sandip/" >Sandip Sen</a></li>
-              <li><a target="_blank" href="http://www.ntulily.org/ascymiao/" >Miao Chun Yan</a></li>
+              <li> <el-link href="https://www.ntu.edu.sg/home/zhangj/" target="_blank">Jie Zhang</el-link></li>
+              <li> <el-link href="https://www.ntu.edu.sg/home/boan/" target="_blank">Bo An</el-link></li>
+              <li> <el-link href="http://l1apc2.ens.utulsa.edu/~sandip/" target="_blank">Sandip Sen</el-link></li>
+              <li> <el-link href="http://www.ntulily.org/ascymiao/" target="_blank">Miao Chun Yan</el-link></li>
             </ul>
           </div>
         </el-col>
