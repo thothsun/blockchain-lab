@@ -6,7 +6,7 @@
     <div style="height: 150px;width: 150px">
       <el-avatar
         style="width: 150px;height: 150px;font-size: 10rem;display: flex;justify-content: center;align-items: center"
-        :src="avatar">S
+        :src="avatar">{{letter}}
       </el-avatar>
     </div>
 
@@ -47,6 +47,7 @@
     props: {
       name: String,
       avatar: String,
+      letter: String,
       position: String,
       email: String,
       description: String
