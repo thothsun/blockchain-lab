@@ -7,7 +7,7 @@
                 src="github.png"
                 alt="Fork me on GitHub"></el-image>
     </a>
-    <el-backtop visibility-height="10" :right="100" :bottom="50">Top</el-backtop>
+    <el-backtop :visibility-height="10" :right="100" :bottom="50">Top</el-backtop>
   </div>
 </template>
 
