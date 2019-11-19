@@ -9,12 +9,12 @@
 
             <ul class="ul-navi">
               <li :class="{active: active===0}" @click="scrollTo('#h1-teacher')">实验室负责人</li>
-              <li :class="{active: active===1}" @click="scrollTo('#h1-master-2016')">2016级硕士研究生</li>
-              <li :class="{active: active===2}" @click="scrollTo('#h1-master-2017')">2017级硕士研究生</li>
-              <li :class="{active: active===3}" @click="scrollTo('#h1-master-2018')">2018级硕士研究生</li>
-              <li :class="{active: active===4}" @click="scrollTo('#h1-master-2019')">2019级硕士研究生</li>
-              <li :class="{active: active===5}" @click="scrollTo('#h1-stu')">本科生</li>
-              <li :class="{active: active===6}" @click="scrollTo('#h1-abroad')">留学生</li>
+              <li :class="{active: active===1}" @click="scrollTo('#h1-master-2017')">2017级硕士研究生</li>
+              <li :class="{active: active===2}" @click="scrollTo('#h1-master-2018')">2018级硕士研究生</li>
+              <li :class="{active: active===3}" @click="scrollTo('#h1-master-2019')">2019级硕士研究生</li>
+              <li :class="{active: active===4}" @click="scrollTo('#h1-stu')">本科生</li>
+              <li :class="{active: active===5}" @click="scrollTo('#h1-abroad')">留学生</li>
+              <li :class="{active: active===6}" @click="scrollTo('#h1-old')">已毕业学生</li>
             </ul>
 
           </div>
@@ -37,25 +37,6 @@
 
           <el-divider></el-divider>
 
-          <h1 id="h1-master-2016">2016级硕士研究生</h1>
-
-          <member
-            name="白金"
-            avatar=""
-            letter="B"
-            position="2016级硕士研究生"
-            email=""
-            description=""
-          ></member>
-
-          <member
-            name="赵征"
-            avatar=""
-            letter="Z"
-            position="2016级硕士研究生"
-            email=""
-            description=""
-          ></member>
 
           <el-divider></el-divider>
 
@@ -210,6 +191,34 @@
             description=""
           ></member>
 
+          <h1 id="h1-old">已毕业学生</h1>
+
+          <member
+            name="白金"
+            avatar=""
+            letter="B"
+            position="2016级硕士研究生"
+            email=""
+            description=""
+          ></member>
+
+          <member
+            name="赵征"
+            avatar=""
+            letter="Z"
+            position="2016级硕士研究生"
+            email=""
+            description=""
+          ></member>
+
+          <member
+            name="Name"
+            avatar=""
+            letter=""
+            position="2016级硕士留学生"
+            email=""
+            description=""
+          ></member>
 
         </el-col>
       </el-row>
@@ -334,8 +343,8 @@
     width: 100%;
   }
 
-  .ul-navi li{
-    cursor:pointer;
+  .ul-navi li {
+    cursor: pointer;
     margin: 30px 0;
   }
 
