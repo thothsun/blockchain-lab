@@ -29,7 +29,9 @@
 
           <el-divider><i class="el-icon-message"></i></el-divider>
 
-          请感兴趣的同学发送简历至 <b>liuyuan@swc.neu.edu.cn</b>
+          感兴趣的同学请发送简历至
+
+          <el-link href="mailto:liuyuan@swc.neu.edu.cn" target="_blank">liuyuan@swc.neu.edu.cn</el-link>
 
         </el-col>
       </el-row>
