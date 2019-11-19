@@ -1,6 +1,6 @@
 <template>
 
-  <div class="container">
+  <div class="container  animated flipInX">
 
 
     <div style="height: 150px;width: 150px">

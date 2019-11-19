@@ -38,8 +38,6 @@
           <el-divider></el-divider>
 
 
-          <el-divider></el-divider>
-
           <h1 id="h1-master-2017">2017级硕士研究生</h1>
 
           <member
@@ -190,6 +188,9 @@
             email=""
             description=""
           ></member>
+
+
+          <el-divider></el-divider>
 
           <h1 id="h1-old">已毕业学生</h1>
 

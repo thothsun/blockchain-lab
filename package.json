@@ -11,9 +11,10 @@
     "generate": "nuxt generate"
   },
   "dependencies": {
-    "nuxt": "^2.0.0",
+    "@nuxtjs/axios": "^5.3.6",
+    "animate.css": "^3.7.2",
     "element-ui": "^2.4.11",
-    "@nuxtjs/axios": "^5.3.6"
+    "nuxt": "^2.0.0"
   },
   "devDependencies": {
     "element-theme-chalk": "^2.12.0"
