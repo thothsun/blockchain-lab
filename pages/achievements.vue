@@ -8,7 +8,7 @@
           <h1>发表论文</h1>
 
           <ul>
-            <li v-for="item in papers" class="item">
+            <li v-for="item in papers" class="item animated zoomIn">
               {{item}}
             </li>
           </ul>
