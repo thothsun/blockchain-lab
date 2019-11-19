@@ -4,7 +4,8 @@
 
 
     <div style="height: 150px;width: 150px">
-      <el-avatar style="font-size: 10rem;display: flex;justify-content: center;align-items: center;border: 1px solid darkgrey"
+      <el-avatar
+        style="font-size: 10rem;display: flex;justify-content: center;align-items: center;border: 1px solid darkgrey"
         :size="150"
         shape="circle"
         fit="contain"
@@ -27,11 +28,8 @@
           <b style="white-space: nowrap">{{position}}</b>
         </div>
 
-
         <div>
-          <i class="el-icon-message" style="color: #909399"></i>
-          &nbsp;&nbsp;
-          {{email}}
+          <el-link :href="'mailto:'+email" target="_blank"><i class="el-icon-message" style="color: #909399"></i> {{email}}</el-link>
         </div>
       </div>
 
