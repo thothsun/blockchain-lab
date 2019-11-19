@@ -3,7 +3,7 @@
     <myheader index="/members"></myheader>
     <el-main class="main-content">
       <el-row :gutter="0" type="flex" justify="center">
-        <el-col :span="4" class="hidden-sm-and-down" style="min-width: 240px">
+        <el-col :span="4" style="min-width: 240px">
           <div
             style="position: fixed;display: flex;justify-content: center;align-items:center;width: 200px;height: 500px">
 

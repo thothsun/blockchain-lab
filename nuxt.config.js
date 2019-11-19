@@ -22,7 +22,7 @@ export default {
   */
   css: [
     // 'element-ui/lib/theme-chalk/index.css',
-    // 'element-ui/lib/theme-chalk/display.css',
+    'element-ui/lib/theme-chalk/display.css', //基于断点的隐藏类
     'theme/index.css',
     'assets/main.css'
   ],

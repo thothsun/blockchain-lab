@@ -18,7 +18,7 @@
               </div>
             </el-col>
 
-            <el-col :span="2" class="hidden-sm-and-down">
+            <el-col :span="2" class="hidden-xs-only">
               <div class="logo">
                 <p style="">B&R</p>
               </div>
@@ -130,6 +130,7 @@
 
   .logo {
     height: 100%;
+    min-width: 120px;
     display: inline-flex;
     justify-content: center;
     align-items: center;
