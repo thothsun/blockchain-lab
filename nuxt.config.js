@@ -21,8 +21,9 @@ export default {
   ** Global CSS
   */
   css: [
-    'element-ui/lib/theme-chalk/index.css',
-    'element-ui/lib/theme-chalk/display.css',
+    // 'element-ui/lib/theme-chalk/index.css',
+    // 'element-ui/lib/theme-chalk/display.css',
+    'theme/index.css',
     'assets/main.css'
   ],
   /*
