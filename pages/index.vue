@@ -5,11 +5,11 @@
 
     <el-main class="main-content">
       <el-row :gutter="0" type="flex" justify="center">
-        <el-col :xs="20" :sm="18" :md="16" :lg="14" :xl="12">
+        <el-col :xs="20" :sm="18" :md="16" :lg="14" :xl="14">
 
-
-          <div style="display: flex;justify-content: center;width: 80%;max-width:800px;margin: 10px auto">
-            <el-image src="group-crop.jpg"/>
+          <div class="group-wrapper">
+            <el-image class="group-bg" fit="fill" src="group-crop.jpg"></el-image>
+            <el-image class="group-ph" src="group-crop.jpg"></el-image>
           </div>
 
           <el-divider></el-divider>
@@ -109,6 +109,32 @@
   p {
     line-height: 1.7;
     color: #606266;
+  }
+
+
+  .group-wrapper {
+    height: 400px;
+    width: 100%;
+    margin: 10px auto;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+  }
+
+  .group-bg {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    filter: blur(20px);
+    transform: scale(1.1);
+  }
+
+  .group-ph {
+    height: 400px;
+    width: 800px;
+    background-color: green;
   }
 
 
