@@ -134,7 +134,6 @@
   .group-ph {
     height: 400px;
     width: 800px;
-    background-color: green;
   }
 
 
