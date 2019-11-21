@@ -7,7 +7,7 @@
       <el-row :gutter="0" type="flex" justify="center">
         <el-col :xs="20" :sm="18" :md="16" :lg="14" :xl="14">
 
-          <div class="group-wrapper">
+          <div class="group-wrapper animated bounceInDown">
             <el-image class="group-bg" fit="fill" src="group-crop.jpg"></el-image>
             <el-image class="group-ph" src="group-crop.jpg"></el-image>
           </div>
