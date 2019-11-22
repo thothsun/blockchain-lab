@@ -120,20 +120,20 @@
 
           <member
             name="闫玉"
-            avatar=""
+            avatar="avatar/yanyu.jpeg"
             letter="Y"
             position="2019级硕士研究生"
-            email=""
-            description=""
+            email="944981514@qq.com"
+            description="1997年出生于山东滕州，工学学士。2019年9月进入东北大学软件学院软件工程专业学习。主要研究领域：SIOV(Social Interent of Vehicle)"
           ></member>
 
           <member
             name="张闯"
-            avatar=""
+            avatar="avatar/zhangchuang.jpeg"
             letter="Z"
             position="2019级硕士研究生"
-            email=""
-            description=""
+            email="1905874127@qq.com"
+            description="1997年出生于辽宁朝阳。2019年毕业于东北电力大学计算机学院软件工程专业，获学士学位。现就读于东北大学软件工程专业，师从刘园副教授。"
           ></member>
 
           <el-divider></el-divider>
