@@ -7,7 +7,9 @@ export default {
     title: '区块链研究组',
     meta: [
       {charset: 'utf-8'},
-      {hid: 'description', name: 'description', content: process.env.npm_package_description || ''}
+      {hid: 'description', name: 'description', content: process.env.npm_package_description || ''},
+      {hid: 'keywords', name:'keywords', content:'blockchain'},
+      {hid: 'author', name: 'author', content: 'sunshuai'}
     ],
     link: [
       {rel: 'icon', type: 'image/x-icon', href: '/favicon.ico'}
