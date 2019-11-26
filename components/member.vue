@@ -35,8 +35,7 @@
 
 
       <div style="height: 60%;margin: 10px 0;overflow: auto">
-        <p style="text-indent: 2em;font-size: 1.3rem; text-align: justify;text-justify: inter-ideograph">
-          {{description}}</p>
+        <p style="text-indent: 2em;font-size: 1.3rem; text-align: justify;text-justify: inter-ideograph" v-html="description"></p>
       </div>
     </div>
   </div>
