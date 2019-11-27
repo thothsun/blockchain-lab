@@ -57,14 +57,14 @@
 
               <p class="sub-title">教 育</p>
 
-              <div class="wrapper-inline">
+              <div class="inline-wrapper">
                 <p>2014.9-2018.7</p>
                 <p style="width: 150px">东北大学秦皇岛分校</p>
                 <p style="width: 260px">计算机与通信工程学院（电子信息工程）</p>
                 <p>本科（全日制）</p>
               </div>
 
-              <div class="wrapper-inline">
+              <div class="inline-wrapper">
                 <p>2018.8-2021.7</p>
                 <p style="width: 150px">东北大学</p>
                 <p style="width: 260px">软件学院（软件工程）</p>
@@ -79,7 +79,7 @@
             <div>
               <p class="sub-title">实 习</p>
 
-              <div class="wrapper-inline">
+              <div class="inline-wrapper">
                 <p>2018.1-2018.6</p>
                 <p>中国科学院自动化研究所（北京）</p>
                 <p>Android客户端研发工程师</p>
@@ -91,7 +91,7 @@
             <div>
               <p class="sub-title">创 业</p>
 
-              <div class="wrapper-inline">
+              <div class="inline-wrapper">
                 <p>2016.1-2017.6</p>
                 <p>河北驰凯科技有限公司</p>
                 <p>联合创始人，负责软件开发</p>
@@ -151,90 +151,92 @@
               <p class="sub-title">项 目</p>
               <!-- 项目名称（类型）——  语言 ——  组织 ——  截图 ——  使用链接 -->
               <p class="subsub-title">本科</p>
-              <ul>
 
-                <li class="wrapper-inline">
-                  <p>智慧云联（Android 客户端）</p>
-                  <p>Java/Kotlin</p>
-                  <p>驰凯科技</p>
+              <div style="padding: 0 20px">
+
+                <div class="inline-wrapper">
+                  <p style="width: 40%">智慧云联（Android 客户端）</p>
+                  <p style="width: 25%">Java/Kotlin</p>
+                  <p style="width: 25%">驰凯科技</p>
                   <el-button type="text" size="mini">预览</el-button>
-                </li>
+                </div>
 
-                <li class="wrapper-inline">
-                  <p>拉曼光谱分析仪（Android 客户端）</p>
-                  <p>Java/Kotlin</p>
-                  <p>中科院自动化所</p>
+                <div class="inline-wrapper">
+                  <p style="width: 40%">拉曼光谱分析仪（Android 客户端）</p>
+                  <p style="width: 25%">Java/Kotlin</p>
+                  <p style="width: 25%">中科院自动化所</p>
                   <el-button type="text" size="mini">预览</el-button>
-                </li>
+                </div>
 
-                <li class="wrapper-inline">
-                  <p>机器人控制器（Android 客户端）</p>
-                  <p>Java/Kotlin</p>
-                  <p>中科院自动化所</p>
+                <div class="inline-wrapper">
+                  <p style="width: 40%">机器人控制器（Android 客户端）</p>
+                  <p style="width: 25%">Java/Kotlin</p>
+                  <p style="width: 25%">中科院自动化所</p>
                   <el-button type="text" size="mini">预览</el-button>
-                </li>
+                </div>
 
-                <li class="wrapper-inline">
-                  <p>扁鹊医疗（Android 客户端）</p>
-                  <p>Java/Kotlin</p>
-                  <p>中科院自动化所</p>
+                <div class="inline-wrapper">
+                  <p style="width: 40%">扁鹊医疗（Android 客户端）</p>
+                  <p style="width: 25%">Java/Kotlin</p>
+                  <p style="width: 25%">中科院自动化所</p>
                   <el-button type="text" size="mini">预览</el-button>
-                </li>
+                </div>
 
-              </ul>
+              </div>
 
               <p class="subsub-title">硕士</p>
-              <ul>
-                <li class="wrapper-inline">
-                  <p>靶膳生命（服务端、web端、公众号端）</p>
-                  <p>Java/Html/Css/JavaScript/Python</p>
+
+              <div style="padding: 0 20px">
+                <div class="inline-wrapper">
+                  <p style="width: 50%">靶膳生命（服务端、web端、公众号端）</p>
+                  <p style="width: 40%">Java/Html/Css/JavaScript/Python</p>
                   <el-button type="text" size="mini">预览</el-button>
-                </li>
+                </div>
 
-                <li class="wrapper-inline">
-                  <p>区块链研究组（静态网站）</p>
-                  <p>Html/Css/JavaScript</p>
+                <div class="inline-wrapper">
+                  <p style="width: 50%">区块链研究组（静态网站）</p>
+                  <p style="width: 40%">Html/Css/JavaScript</p>
                   <el-button type="text" size="mini">预览</el-button>
-                </li>
+                </div>
 
-                <li class="wrapper-inline">
-                  <p>WeRobot（开源项目）</p>
-                  <p>Python</p>
+                <div class="inline-wrapper">
+                  <p style="width: 50%">WeRobot（开源项目）</p>
+                  <p style="width: 40%">Python</p>
                   <el-button type="text" size="mini">预览</el-button>
-                </li>
+                </div>
 
-                <li class="wrapper-inline">
-                  <p>个性字体（微信小程序）</p>
-                  <p>JavaScript</p>
+                <div class="inline-wrapper">
+                  <p style="width: 50%">个性字体（微信小程序）</p>
+                  <p style="width: 40%">JavaScript</p>
                   <el-button type="text" size="mini">预览</el-button>
-                </li>
+                </div>
 
-                <li class="wrapper-inline">
-                  <p>照片墙（微信小程序）</p>
-                  <p>JavaScript</p>
+                <div class="inline-wrapper">
+                  <p style="width: 50%">照片墙（微信小程序）</p>
+                  <p style="width: 40%">JavaScript</p>
                   <el-button type="text" size="mini">预览</el-button>
-                </li>
+                </div>
 
-                <li class="wrapper-inline">
-                  <p>双面镜（Android 客户端）</p>
-                  <p>Java/Kotlin</p>
+                <div class="inline-wrapper">
+                  <p style="width: 50%">双面镜（Android 客户端）</p>
+                  <p style="width: 40%">Java/Kotlin</p>
                   <el-button type="text" size="mini">预览</el-button>
-                </li>
+                </div>
 
-                <li class="wrapper-inline">
-                  <p>课堂签到系统（服务端、web端、微信小程序）</p>
-                  <p>Java/Html/Css/JavaScript</p>
+                <div class="inline-wrapper">
+                  <p style="width: 50%">课堂签到系统（服务端、web端、微信小程序）</p>
+                  <p style="width: 40%">Java/Html/Css/JavaScript</p>
                   <el-button type="text" size="mini">预览</el-button>
-                </li>
+                </div>
 
-                <li class="wrapper-inline">
-                  <p>阿里天池大赛-工业蒸汽量预测（0.0189%）</p>
-                  <p>Python</p>
+                <div class="inline-wrapper">
+                  <p style="width: 50%">阿里天池大赛-工业蒸汽量预测（0.0189%）</p>
+                  <p style="width: 40%">Python</p>
                   <el-button type="text" size="mini">预览</el-button>
-                </li>
+                </div>
 
 
-              </ul>
+              </div>
             </div>
 
 
@@ -282,19 +284,16 @@
     font-weight: bold;
   }
 
-  .wrapper-inline {
+  .inline-wrapper {
     display: flex;
     justify-content: space-between;
     align-items: center;
   }
 
-  .wrapper-inline p {
+  .inline-wrapper p {
     display: inline;
   }
 
-  .wrapper-inline button {
-    display: inline;
-  }
 
 
   .ul-cross li {
