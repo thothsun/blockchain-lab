@@ -13,34 +13,35 @@
                 style="height: 100%; width: 100%; display: inline-flex;flex-direction: column;justify-content: space-between">
                 <div style="height: 30%;font-size: 2.8rem;font-weight: bold;display: flex;align-items: center">孙帅</div>
 
-                <table style="width: 100%;height: 50%;white-space: nowrap;overflow: hidden;table-layout: fixed">
-                  <tr>
-                    <td>
-                      <div style="display: flex">
-                        <p style="display: inline">邮箱:&nbsp;</p>
-                        <el-link :href="'mailto:sunshuai.edu@gmail.com'"
-                                 target="_blank">sunshuai.edu@gmail.com
-                        </el-link>
-                      </div>
-                    </td>
 
-                    <td>
-                      <div style="display: flex">
-                        <p style="display: inline">GitHub:&nbsp;</p>
-                        <el-link :href="'https://github.com/Sun-Shuai'" target="_blank">https://github.com/Sun-Shuai
-                        </el-link>
-                      </div>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td>
+                <div style="width: 100%;height: 50%;white-space: nowrap;overflow: hidden">
+
+                  <div style="height: 50%">
+                    <div style="display: inline-flex;height: 100%;width: 50%;align-items: center">
+                      <p style="display: inline">邮箱:&nbsp;</p>
+                      <el-link :href="'mailto:sunshuai.edu@gmail.com'"
+                               target="_blank">sunshuai.edu@gmail.com
+                      </el-link>
+                    </div>
+                    <div style="display: inline-flex;height: 100%;width: 50%;align-items: center">
+                      <p style="display: inline">GitHub:&nbsp;</p>
+                      <el-link :href="'https://github.com/Sun-Shuai'" target="_blank">https://github.com/Sun-Shuai
+                      </el-link>
+                    </div>
+                  </div>
+
+                  <div style="height: 50%;">
+                    <div style="display: inline-flex;height: 100%;width: 50%;align-items: center">
                       籍贯: 天津市静海区
-                    </td>
-                    <td>
+                    </div>
+                    <div style="display: inline-flex;height: 100%;width: 50%;align-items: center">
                       QQ: 438819781
-                    </td>
-                  </tr>
-                </table>
+                    </div>
+                  </div>
+
+
+                </div>
+
 
               </div>
 
