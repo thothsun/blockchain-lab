@@ -60,14 +60,14 @@
                 <p>2014.9-2018.7</p>
                 <p style="width: 150px">东北大学秦皇岛分校</p>
                 <p style="width: 260px">计算机与通信工程学院（电子信息工程）</p>
-                <p>本科</p>
+                <p>本科（全日制）</p>
               </div>
 
               <div class="wrapper-inline">
                 <p>2018.8-2021.7</p>
                 <p style="width: 150px">东北大学</p>
                 <p style="width: 260px">软件学院（软件工程）</p>
-                <p>硕士</p>
+                <p>硕士（全日制）</p>
               </div>
 
 
@@ -148,23 +148,91 @@
 
             <div>
               <p class="sub-title">项 目</p>
-
-              【参考github】
-
+              <!-- 项目名称（类型）——  语言 ——  组织 ——  截图 ——  使用链接 -->
               <p class="subsub-title">本科</p>
               <ul>
-                <li>智慧云联 Android 端 （蓝牙、传输协议）</li>
-                <li>拉曼光谱分析仪 Android 端</li>
-                <li>扁鹊医疗 Android 端</li>
-                <li>机器人控制器 Android 端</li>
-                <li>WeRobot开源项目pr</li>
-                <li>靶膳服务端、前端、公众号端</li>
+
+                <li class="wrapper-inline">
+                  <p>智慧云联（Android 客户端）</p>
+                  <p>Java/Kotlin</p>
+                  <p>驰凯科技</p>
+                  <el-button type="text" size="mini">预览</el-button>
+                </li>
+
+                <li class="wrapper-inline">
+                  <p>拉曼光谱分析仪（Android 客户端）</p>
+                  <p>Java/Kotlin</p>
+                  <p>中科院自动化所</p>
+                  <el-button type="text" size="mini">预览</el-button>
+                </li>
+
+                <li class="wrapper-inline">
+                  <p>机器人控制器（Android 客户端）</p>
+                  <p>Java/Kotlin</p>
+                  <p>中科院自动化所</p>
+                  <el-button type="text" size="mini">预览</el-button>
+                </li>
+
+                <li class="wrapper-inline">
+                  <p>扁鹊医疗（Android 客户端）</p>
+                  <p>Java/Kotlin</p>
+                  <p>中科院自动化所</p>
+                  <el-button type="text" size="mini">预览</el-button>
+                </li>
+
               </ul>
 
               <p class="subsub-title">硕士</p>
               <ul>
-                <li>区块链研究组主页-前端 （Vue.js）</li>
-                <li>阿里天池蒸汽量预测 (69/4030 前0.2%)</li>
+                <li class="wrapper-inline">
+                  <p>靶膳生命（服务端、web端、公众号端）</p>
+                  <p>Java/Html/Css/JavaScript/Python</p>
+                  <el-button type="text" size="mini">预览</el-button>
+                </li>
+
+                <li class="wrapper-inline">
+                  <p>区块链研究组（静态网站）</p>
+                  <p>Html/Css/JavaScript</p>
+                  <el-button type="text" size="mini">预览</el-button>
+                </li>
+
+                <li class="wrapper-inline">
+                  <p>WeRobot（开源项目）</p>
+                  <p>Python</p>
+                  <el-button type="text" size="mini">预览</el-button>
+                </li>
+
+                <li class="wrapper-inline">
+                  <p>个性字体（微信小程序）</p>
+                  <p>JavaScript</p>
+                  <el-button type="text" size="mini">预览</el-button>
+                </li>
+
+                <li class="wrapper-inline">
+                  <p>照片墙（微信小程序）</p>
+                  <p>JavaScript</p>
+                  <el-button type="text" size="mini">预览</el-button>
+                </li>
+
+                <li class="wrapper-inline">
+                  <p>双面镜（Android 客户端）</p>
+                  <p>Java/Kotlin</p>
+                  <el-button type="text" size="mini">预览</el-button>
+                </li>
+
+                <li class="wrapper-inline">
+                  <p>课堂签到系统（服务端、web端、微信小程序）</p>
+                  <p>Java/Html/Css/JavaScript</p>
+                  <el-button type="text" size="mini">预览</el-button>
+                </li>
+
+                <li class="wrapper-inline">
+                  <p>阿里天池大赛-工业蒸汽量预测（0.0189%）</p>
+                  <p>Python</p>
+                  <el-button type="text" size="mini">预览</el-button>
+                </li>
+
+
               </ul>
             </div>
 
@@ -216,9 +284,14 @@
   .wrapper-inline {
     display: flex;
     justify-content: space-between;
+    align-items: center;
   }
 
   .wrapper-inline p {
+    display: inline;
+  }
+
+  .wrapper-inline button {
     display: inline;
   }
 
