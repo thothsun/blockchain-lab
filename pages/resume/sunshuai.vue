@@ -1,6 +1,15 @@
 <template>
   <el-container direction="vertical">
 
+    <transition name="fade">
+      <div
+        style="background-color: rgba(0,0,0,0.5);height: 100%;width: 100%;position: fixed;z-index: 99;display: flex;justify-content: center;align-items: center"
+        v-show="show" @click="hideImg">
+        <el-image :src="current_img" style="height: 640px;width: 640px;margin: 0 auto" fit="contain"></el-image>
+      </div>
+    </transition>
+
+
     <el-main class="main-content">
       <el-row :gutter="0" type="flex" justify="center">
         <el-col :xs="22" :sm="20" :md="18" :lg="10" :xl="10">
@@ -104,8 +113,8 @@
               <p class="sub-title">学 术</p>
               <p class="subsub-title">本科</p>
               <ul>
-                <li>发明专利：智能手机闪光灯控制的光控防盗锁系统及开锁方法（CN105957208A）</li>
-                <li>实用新型专利：智能手机闪光灯控制的光控防盗锁系统（CN206058319U）</li>
+                <li @click="showImg('/sunshuai/a1.png')">发明专利：智能手机闪光灯控制的光控防盗锁系统及开锁方法（CN105957208A）</li>
+                <li @click="showImg('/sunshuai/a2.png')">实用新型专利：智能手机闪光灯控制的光控防盗锁系统（CN206058319U）</li>
               </ul>
 
               <p class="subsub-title">硕士</p>
@@ -196,7 +205,7 @@
                 <div class="inline-wrapper">
                   <p style="width: 50%">区块链研究组（静态网站）</p>
                   <p style="width: 40%">Html/Css/JavaScript</p>
-                  <el-button type="text" size="mini">预览</el-button>
+                  <el-button type="text" size="mini" @click="showImg('/sunshuai/c6.png')">预览</el-button>
                 </div>
 
                 <div class="inline-wrapper">
@@ -260,13 +269,37 @@
 
   export default {
     name: "sunshuai",
+    data() {
+      return {
+        current_img: '',
+        show: false
+      }
+    },
     components: {
       myfooter
+    },
+    methods: {
+      showImg(src) {
+        this.current_img = src
+        this.show = true
+      },
+      hideImg() {
+        this.show = false
+      }
     }
   }
 </script>
 
 <style scoped>
+
+  .fade-enter-active, .fade-leave-active {
+    transition: opacity .5s;
+  }
+
+  .fade-enter, .fade-leave-to /* .fade-leave-active below version 2.1.8 */
+  {
+    opacity: 0;
+  }
 
   .main-content {
     min-height: calc(100vh - 60px) /* 60px = footer 60px */
@@ -295,10 +328,14 @@
   }
 
 
-
   .ul-cross li {
     float: left;
     width: 130px;
+  }
+
+
+  li {
+    cursor: pointer;
   }
 
 
