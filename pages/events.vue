@@ -22,7 +22,7 @@
           <h1>团队建设</h1>
           <div style="width: 80%;margin: 0 auto">
             <el-divider></el-divider>
-            <el-image class="animated fadeInRight" src="event/1.jpg"/>
+            <el-image class="animated fadeInRight" src="/event/1.jpg"/>
             <el-divider></el-divider>
             <el-image class="animated fadeInLeft" src="http://faculty.neu.edu.cn/swc/guogb/images/visitings/NTU-UNSW-2018-11.jpg"/>
             <el-divider></el-divider>

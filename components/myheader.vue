@@ -46,7 +46,6 @@
 
 </template>
 
-<!--todo 鼠标进入字体变色-->
 
 <script>
   export default {
@@ -106,7 +105,7 @@
 </script>
 
 
-<style scoped src="assets/navi.css"/>
+<style scoped src="~/assets/navi.css"/>
 
 <style scoped>
 

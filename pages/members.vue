@@ -28,7 +28,7 @@
 
           <member
             name="刘园"
-            avatar="avatar/liuyuan.jpg"
+            avatar="/avatar/liuyuan.jpg"
             letter="L"
             position="副教授"
             email="liuyuan@swc.neu.edu.cn"
@@ -77,7 +77,7 @@
 
           <member
             name="孙帅"
-            avatar="avatar/sunshuai.jpg"
+            avatar="/avatar/sunshuai.jpg"
             letter="S"
             position="2018级硕士研究生"
             email="sunshuai.edu@gmail.com"
@@ -102,7 +102,7 @@
 
           <member
             name="艾峥鹏"
-            avatar="avatar/aizhengpeng.jpg"
+            avatar="/avatar/aizhengpeng.jpg"
             letter="A"
             position="2019级硕士研究生"
             email="im@aizhengpeng.cn"
@@ -120,7 +120,7 @@
 
           <member
             name="闫玉"
-            avatar="avatar/yanyu.jpeg"
+            avatar="/avatar/yanyu.jpeg"
             letter="Y"
             position="2019级硕士研究生"
             email="944981514@qq.com"
@@ -129,7 +129,7 @@
 
           <member
             name="张闯"
-            avatar="avatar/zhangchuang.jpeg"
+            avatar="/avatar/zhangchuang.jpeg"
             letter="Z"
             position="2019级硕士研究生"
             email="1905874127@qq.com"
@@ -143,7 +143,7 @@
           <member
             name="Name"
             avatar=""
-            letter=""
+            letter="N"
             position="2017级本科生"
             email=""
             description=""
@@ -152,7 +152,7 @@
           <member
             name="Name"
             avatar=""
-            letter=""
+            letter="N"
             position="2017级本科生"
             email=""
             description=""
@@ -161,7 +161,7 @@
           <member
             name="Name"
             avatar=""
-            letter=""
+            letter="N"
             position="2017级本科生"
             email=""
             description=""
@@ -174,7 +174,7 @@
           <member
             name="Name"
             avatar=""
-            letter=""
+            letter="N"
             position="2016级留学生"
             email=""
             description=""
@@ -183,7 +183,7 @@
           <member
             name="Name"
             avatar=""
-            letter=""
+            letter="N"
             position="2017级留学生"
             email=""
             description=""
@@ -215,7 +215,7 @@
           <member
             name="Name"
             avatar=""
-            letter=""
+            letter="N"
             position="2016级硕士留学生"
             email=""
             description=""
