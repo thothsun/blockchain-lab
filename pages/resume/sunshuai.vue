@@ -88,7 +88,7 @@
             <div>
               <p class="sub-title">实 习</p>
 
-              <div class="inline-wrapper">
+              <div class="inline-wrapper" @click="showImg('/sunshuai/sx.png')" style="cursor: pointer;">
                 <p>2018.1-2018.6</p>
                 <p>中国科学院自动化研究所（北京）</p>
                 <p>Android客户端研发工程师</p>
@@ -100,7 +100,7 @@
             <div>
               <p class="sub-title">创 业</p>
 
-              <div class="inline-wrapper">
+              <div class="inline-wrapper" @click="showImg('/sunshuai/cy.jpg')" style="cursor: pointer;">
                 <p>2016.1-2017.6</p>
                 <p>河北驰凯科技有限公司</p>
                 <p>联合创始人，负责软件开发</p>
@@ -113,13 +113,14 @@
               <p class="sub-title">学 术</p>
               <p class="subsub-title">本科</p>
               <ul>
-                <li @click="showImg('/sunshuai/a1.png')">发明专利：智能手机闪光灯控制的光控防盗锁系统及开锁方法（CN105957208A）</li>
-                <li @click="showImg('/sunshuai/a2.png')">实用新型专利：智能手机闪光灯控制的光控防盗锁系统（CN206058319U）</li>
+                <li @click="showImg('/sunshuai/xs1.png')">发明专利：智能手机闪光灯控制的光控防盗锁系统及开锁方法（CN105957208A）</li>
+                <li @click="showImg('/sunshuai/xs2.png')">实用新型专利：智能手机闪光灯控制的光控防盗锁系统（CN206058319U）</li>
               </ul>
 
               <p class="subsub-title">硕士</p>
               <ul>
-                <li>会议论文：Shuai Sun, Yuan Liu, Guibing Guo: A Privacy-Preserving and Robust Reputation System based on
+                <li @click="showImg('/sunshuai/xs3.png')">会议论文：Shuai Sun, Yuan Liu, Guibing Guo: A Privacy-Preserving
+                  and Robust Reputation System based on
                   Blockchain. ISPA 2019: XXX-XXX（CCF C类会议，EI检索）
                 </li>
               </ul>
@@ -131,19 +132,19 @@
               <p class="sub-title">获 奖</p>
               <p class="subsub-title">本科</p>
               <ul>
-                <li>2015年第五届全国大学生电子商务"创新、创意及创业"挑战赛河北省特等奖</li>
-                <li>2015年第五届全国大学生电子商务"创新、创意及创业"挑战赛全国一等奖</li>
-                <li>2015年第二届京津冀大学生创新创业大赛一等奖</li>
-                <li>2015年优秀团员</li>
-                <li>2015年第二届“创青春”中国青年创新创业大赛河北省二等奖</li>
-                <li>2016年图灵杯neuq-acm程序设计大赛三等奖</li>
-                <li>2016年科技创新奖学金</li>
-                <li>2016年度“优秀创业年度人物”</li>
-                <li>2016年秦皇岛国际马拉松优秀志愿者</li>
-                <li>2016年第五届“中国软件杯”大学生软件设计大赛优秀奖</li>
-                <li>2017年第八届蓝桥杯个人赛Java 软件开发大学 A 组河北省三等奖</li>
-                <li>2017年第十五届“挑战杯”大学生课外学术科技作品竞赛河北省特等奖</li>
-                <li>2018年科技创新奖学金</li>
+                <li @click="showImg('/sunshuai/hj1.jpg')">2015年第五届全国大学生电子商务"创新、创意及创业"挑战赛河北省特等奖</li>
+                <li @click="showImg('/sunshuai/hj2.jpg')">2015年第五届全国大学生电子商务"创新、创意及创业"挑战赛全国一等奖</li>
+                <li @click="showImg('/sunshuai/hj3.jpg')">2015年第二届京津冀大学生创新创业大赛一等奖</li>
+                <li @click="showImg('/sunshuai/hj4.jpg')">2015年优秀团员</li>
+                <li @click="showImg('/sunshuai/hj5.jpg')">2015年第二届“创青春”中国青年创新创业大赛河北省二等奖</li>
+                <li @click="showImg('/sunshuai/hj6.jpg')">2016年图灵杯neuq-acm程序设计大赛三等奖</li>
+                <li @click="showImg('/sunshuai/hj7.jpg')">2016年科技创新奖学金</li>
+                <li @click="showImg('/sunshuai/hj8-temp.jpg')">2016年度“优秀创业年度人物”</li>
+                <li @click="showImg('/sunshuai/hj9.jpg')">2016年秦皇岛国际马拉松优秀志愿者</li>
+                <li @click="showImg('/sunshuai/hj10.jpg')">2016年第五届“中国软件杯”大学生软件设计大赛优秀奖</li>
+                <li @click="showImg('/sunshuai/hj11.jpg')">2017年第八届蓝桥杯个人赛Java 软件开发大学 A 组河北省三等奖</li>
+                <li @click="showImg('/sunshuai/hj12.jpg')">2017年第十五届“挑战杯”大学生课外学术科技作品竞赛河北省特等奖</li>
+                <li>2018年科技创新奖学金</li><!-- todo Image-->
               </ul>
 
               <p class="subsub-title">硕士</p>
