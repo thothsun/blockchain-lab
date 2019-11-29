@@ -13,10 +13,9 @@
     <transition name="fade">
       <div
         style="background-color: rgba(0,0,0,0.5);height: 100%;width: 100%;position: fixed;z-index: 99;display: flex;justify-content: center;align-items: center"
-        v-show="show_video" @click="hideVideo">
+        v-if="show_video" @click="hideVideo">
         <video width="640" height="480" autoplay="autoplay" loop="loop" preload="metadata">
           <source :src="'/sunshuai/xm3.mp4'" type="video/mp4">
-          afd
         </video>
       </div>
     </transition>
