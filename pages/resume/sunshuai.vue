@@ -149,8 +149,8 @@
 
               <p class="subsub-title">硕士</p>
               <ul>
-                <li>2018年第二届辽宁省数学建模竞赛三等奖</li>
-                <li>2019年第三届辽宁省数学建模竞赛二等奖</li>
+                <li @click="showImg('/sunshuai/hj13.png')">2018年第二届辽宁省数学建模竞赛三等奖</li>
+                <li @click="showImg('/sunshuai/hj14.png')">2019年第三届辽宁省数学建模竞赛二等奖</li>
               </ul>
             </div>
 
@@ -206,7 +206,7 @@
                 <div class="inline-wrapper">
                   <p style="width: 50%">区块链研究组（静态网站）</p>
                   <p style="width: 40%">Html/Css/JavaScript</p>
-                  <el-button type="text" size="mini" @click="showImg('/sunshuai/c6.png')">预览</el-button>
+                  <el-button type="text" size="mini" @click="showImg('/sunshuai/xm6.png')">预览</el-button>
                 </div>
 
                 <div class="inline-wrapper">
@@ -240,9 +240,9 @@
                 </div>
 
                 <div class="inline-wrapper">
-                  <p style="width: 50%">阿里天池大赛-工业蒸汽量预测（0.0189%）</p>
+                  <p style="width: 50%">阿里天池大赛-工业蒸汽量预测（0.0199%）</p>
                   <p style="width: 40%">Python</p>
-                  <el-button type="text" size="mini">预览</el-button>
+                  <el-button type="text" size="mini" @click="showImg('/sunshuai/xm12.png')">预览</el-button>
                 </div>
 
 
@@ -286,6 +286,7 @@
       },
       hideImg() {
         this.show = false
+        this.current_img = ''
       }
     }
   }
