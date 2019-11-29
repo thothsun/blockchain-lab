@@ -10,6 +10,18 @@
     </transition>
 
 
+    <transition name="fade">
+      <div
+        style="background-color: rgba(0,0,0,0.5);height: 100%;width: 100%;position: fixed;z-index: 99;display: flex;justify-content: center;align-items: center"
+        v-show="show_video" @click="hideVideo">
+        <video width="640" height="480" autoplay="autoplay" loop="loop" preload="metadata">
+          <source :src="'/sunshuai/xm3.mp4'" type="video/mp4">
+          afd
+        </video>
+      </div>
+    </transition>
+
+
     <el-main class="main-content">
       <el-row :gutter="0" type="flex" justify="center">
         <el-col :xs="22" :sm="20" :md="18" :lg="10" :xl="10">
@@ -182,7 +194,7 @@
                   <p style="width: 40%">机器人控制器（Android 客户端）</p>
                   <p style="width: 25%">Java/Kotlin</p>
                   <p style="width: 25%">中科院自动化所</p>
-                  <el-button type="text" size="mini">预览</el-button>
+                  <el-button type="text" size="mini" @click="showVideo('/sunshuai/xm3.mp4')">预览</el-button>
                 </div>
 
                 <div class="inline-wrapper">
@@ -273,7 +285,9 @@
     data() {
       return {
         current_img: '',
-        show: false
+        show: false,
+        current_video: '',
+        show_video: false
       }
     },
     components: {
@@ -287,6 +301,14 @@
       hideImg() {
         this.show = false
         this.current_img = ''
+      },
+      showVideo(src) {
+        this.current_video = src
+        this.show_video = true
+      },
+      hideVideo() {
+        this.show_video = false
+        this.current_video = ''
       }
     }
   }
