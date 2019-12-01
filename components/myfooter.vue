@@ -2,8 +2,8 @@
   <el-footer class="footer">
 
     <div class="content">
-      <p>辽宁省沈阳市浑南区创新路195号 | 东北大学 | 软件学院</p>
-      <p>ICP备案网站信息: 辽ICP备19018516号-1 | Copyright © 2019 R&B research lab. All Rights Reserved</p>
+      <p>辽宁省沈阳市浑南区创新路195号 | 东北大学 | 软件学院 | Powered by sunshuai.</p>
+      <p>ICP备案网站信息: 辽ICP备19018516号-1 | Copyright © 2019 R&B research lab. All Rights Reserved.</p>
     </div>
 
 

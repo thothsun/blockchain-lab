@@ -55,7 +55,7 @@
                       籍贯: 天津市静海区
                     </div>
                     <div style="display: inline-flex;height: 100%;width: 50%;align-items: center">
-                      QQ: 438819781
+                      生日：1995 年 5 月
                     </div>
                   </div>
 
@@ -179,14 +179,14 @@
                   <p style="width: 40%">智慧云联（Android 客户端）</p>
                   <p style="width: 25%">Java/Kotlin</p>
                   <p style="width: 25%">驰凯科技</p>
-                  <el-button type="text" size="mini">预览</el-button>
+                  <el-button type="text" size="mini" @click="showImg('/sunshuai/xm1.png')">预览</el-button>
                 </div>
 
                 <div class="inline-wrapper">
                   <p style="width: 40%">拉曼光谱分析仪（Android 客户端）</p>
                   <p style="width: 25%">Java/Kotlin</p>
                   <p style="width: 25%">中科院自动化所</p>
-                  <el-button type="text" size="mini">预览</el-button>
+                  <el-button type="text" size="mini" @click="showImg('/sunshuai/xm2.png')">预览</el-button>
                 </div>
 
                 <div class="inline-wrapper">
@@ -200,7 +200,7 @@
                   <p style="width: 40%">扁鹊医疗（Android 客户端）</p>
                   <p style="width: 25%">Java/Kotlin</p>
                   <p style="width: 25%">中科院自动化所</p>
-                  <el-button type="text" size="mini">预览</el-button>
+                  <el-button type="text" size="mini" @click="showImg('/sunshuai/xm4.png')">预览</el-button>
                 </div>
 
               </div>
@@ -211,11 +211,11 @@
                 <div class="inline-wrapper">
                   <p style="width: 50%">靶膳生命（服务端、web端、公众号端）</p>
                   <p style="width: 40%">Java/Html/Css/JavaScript/Python</p>
-                  <el-button type="text" size="mini">预览</el-button>
+                  <el-button type="text" size="mini" @click="showImg('/sunshuai/xm5.jpg')">预览</el-button>
                 </div>
 
                 <div class="inline-wrapper">
-                  <p style="width: 50%">区块链研究组（静态网站）</p>
+                  <p style="width: 50%">区块链研究组（web端）</p>
                   <p style="width: 40%">Html/Css/JavaScript</p>
                   <el-button type="text" size="mini" @click="showImg('/sunshuai/xm6.png')">预览</el-button>
                 </div>
@@ -223,31 +223,31 @@
                 <div class="inline-wrapper">
                   <p style="width: 50%">WeRobot（开源项目）</p>
                   <p style="width: 40%">Python</p>
-                  <el-button type="text" size="mini">预览</el-button>
+                  <el-button type="text" size="mini" @click="showImg('/sunshuai/xm7.png')">预览</el-button>
                 </div>
 
                 <div class="inline-wrapper">
                   <p style="width: 50%">个性字体（微信小程序）</p>
                   <p style="width: 40%">JavaScript</p>
-                  <el-button type="text" size="mini">预览</el-button>
+                  <el-button type="text" size="mini" @click="showImg('/sunshuai/xm8.jpg')">预览</el-button>
                 </div>
 
                 <div class="inline-wrapper">
                   <p style="width: 50%">照片墙（微信小程序）</p>
                   <p style="width: 40%">JavaScript</p>
-                  <el-button type="text" size="mini">预览</el-button>
+                  <el-button type="text" size="mini" @click="showImg('/sunshuai/xm9.png')">预览</el-button>
                 </div>
 
                 <div class="inline-wrapper">
                   <p style="width: 50%">双面镜（Android 客户端）</p>
                   <p style="width: 40%">Java/Kotlin</p>
-                  <el-button type="text" size="mini">预览</el-button>
+                  <el-button type="text" size="mini" @click="showImg('/sunshuai/xm10.png')">预览</el-button>
                 </div>
 
                 <div class="inline-wrapper">
                   <p style="width: 50%">课堂签到系统（服务端、web端、微信小程序）</p>
                   <p style="width: 40%">Java/Html/Css/JavaScript</p>
-                  <el-button type="text" size="mini">预览</el-button>
+                  <el-button type="text" size="mini" @click="showImg('/sunshuai/xm11.png')">预览</el-button>
                 </div>
 
                 <div class="inline-wrapper">
