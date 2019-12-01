@@ -99,7 +99,7 @@
             <div>
               <p class="sub-title">实 习</p>
 
-              <div class="inline-wrapper" @click="showImg('/sunshuai/sx.png')" style="cursor: pointer;">
+              <div class="inline-wrapper" @click="showImg('/sunshuai/sx.jpg')" style="cursor: pointer;">
                 <p>2018.1-2018.6</p>
                 <p>中国科学院自动化研究所（北京）</p>
                 <p>Android客户端研发工程师</p>
@@ -124,13 +124,13 @@
               <p class="sub-title">学 术</p>
               <p class="subsub-title">本科</p>
               <ul>
-                <li @click="showImg('/sunshuai/xs1.png')">发明专利：智能手机闪光灯控制的光控防盗锁系统及开锁方法（CN105957208A）</li>
-                <li @click="showImg('/sunshuai/xs2.png')">实用新型专利：智能手机闪光灯控制的光控防盗锁系统（CN206058319U）</li>
+                <li @click="showImg('/sunshuai/xs1.jpg')">发明专利：智能手机闪光灯控制的光控防盗锁系统及开锁方法（CN105957208A）</li>
+                <li @click="showImg('/sunshuai/xs2.jpg')">实用新型专利：智能手机闪光灯控制的光控防盗锁系统（CN206058319U）</li>
               </ul>
 
               <p class="subsub-title">硕士</p>
               <ul>
-                <li @click="showImg('/sunshuai/xs3.png')">会议论文：Shuai Sun, Yuan Liu, Guibing Guo: A Privacy-Preserving
+                <li @click="showImg('/sunshuai/xs3.jpg')">会议论文：Shuai Sun, Yuan Liu, Guibing Guo: A Privacy-Preserving
                   and Robust Reputation System based on
                   Blockchain. ISPA 2019: XXX-XXX（CCF C类会议，EI检索）
                 </li>
@@ -160,8 +160,8 @@
 
               <p class="subsub-title">硕士</p>
               <ul>
-                <li @click="showImg('/sunshuai/hj13.png')">2018年第二届辽宁省数学建模竞赛三等奖</li>
-                <li @click="showImg('/sunshuai/hj14.png')">2019年第三届辽宁省数学建模竞赛二等奖</li>
+                <li @click="showImg('/sunshuai/hj13.jpg')">2018年第二届辽宁省数学建模竞赛三等奖</li>
+                <li @click="showImg('/sunshuai/hj14.jpg')">2019年第三届辽宁省数学建模竞赛二等奖</li>
               </ul>
             </div>
 
@@ -179,14 +179,14 @@
                   <p style="width: 40%">智慧云联（Android 客户端）</p>
                   <p style="width: 25%">Java/Kotlin</p>
                   <p style="width: 25%">驰凯科技</p>
-                  <el-button type="text" size="mini" @click="showImg('/sunshuai/xm1.png')">预览</el-button>
+                  <el-button type="text" size="mini" @click="showImg('/sunshuai/xm1.jpg')">预览</el-button>
                 </div>
 
                 <div class="inline-wrapper">
                   <p style="width: 40%">拉曼光谱分析仪（Android 客户端）</p>
                   <p style="width: 25%">Java/Kotlin</p>
                   <p style="width: 25%">中科院自动化所</p>
-                  <el-button type="text" size="mini" @click="showImg('/sunshuai/xm2.png')">预览</el-button>
+                  <el-button type="text" size="mini" @click="showImg('/sunshuai/xm2.jpg')">预览</el-button>
                 </div>
 
                 <div class="inline-wrapper">
@@ -200,7 +200,7 @@
                   <p style="width: 40%">扁鹊医疗（Android 客户端）</p>
                   <p style="width: 25%">Java/Kotlin</p>
                   <p style="width: 25%">中科院自动化所</p>
-                  <el-button type="text" size="mini" @click="showImg('/sunshuai/xm4.png')">预览</el-button>
+                  <el-button type="text" size="mini" @click="showImg('/sunshuai/xm4.jpg')">预览</el-button>
                 </div>
 
               </div>
@@ -217,13 +217,13 @@
                 <div class="inline-wrapper">
                   <p style="width: 50%">区块链研究组（web端）</p>
                   <p style="width: 40%">Html/Css/JavaScript</p>
-                  <el-button type="text" size="mini" @click="showImg('/sunshuai/xm6.png')">预览</el-button>
+                  <el-button type="text" size="mini" @click="showImg('/sunshuai/xm6.jpg')">预览</el-button>
                 </div>
 
                 <div class="inline-wrapper">
                   <p style="width: 50%">WeRobot（开源项目）</p>
                   <p style="width: 40%">Python</p>
-                  <el-button type="text" size="mini" @click="showImg('/sunshuai/xm7.png')">预览</el-button>
+                  <el-button type="text" size="mini" @click="showImg('/sunshuai/xm7.jpg')">预览</el-button>
                 </div>
 
                 <div class="inline-wrapper">
@@ -235,25 +235,25 @@
                 <div class="inline-wrapper">
                   <p style="width: 50%">照片墙（微信小程序）</p>
                   <p style="width: 40%">JavaScript</p>
-                  <el-button type="text" size="mini" @click="showImg('/sunshuai/xm9.png')">预览</el-button>
+                  <el-button type="text" size="mini" @click="showImg('/sunshuai/xm9.jpg')">预览</el-button>
                 </div>
 
                 <div class="inline-wrapper">
                   <p style="width: 50%">双面镜（Android 客户端）</p>
                   <p style="width: 40%">Java/Kotlin</p>
-                  <el-button type="text" size="mini" @click="showImg('/sunshuai/xm10.png')">预览</el-button>
+                  <el-button type="text" size="mini" @click="showImg('/sunshuai/xm10.jpg')">预览</el-button>
                 </div>
 
                 <div class="inline-wrapper">
                   <p style="width: 50%">课堂签到系统（服务端、web端、微信小程序）</p>
                   <p style="width: 40%">Java/Html/Css/JavaScript</p>
-                  <el-button type="text" size="mini" @click="showImg('/sunshuai/xm11.png')">预览</el-button>
+                  <el-button type="text" size="mini" @click="showImg('/sunshuai/xm11.jpg')">预览</el-button>
                 </div>
 
                 <div class="inline-wrapper">
                   <p style="width: 50%">阿里天池大赛-工业蒸汽量预测（0.0199%）</p>
                   <p style="width: 40%">Python</p>
-                  <el-button type="text" size="mini" @click="showImg('/sunshuai/xm12.png')">预览</el-button>
+                  <el-button type="text" size="mini" @click="showImg('/sunshuai/xm12.jpg')">预览</el-button>
                 </div>
 
 
