@@ -16,15 +16,15 @@
           <el-divider><i class="el-icon-notebook-2"></i></el-divider>
 
 
-          <h1>申请专利</h1>
+<!--          <h1>申请专利</h1>-->
 
-          <ul>
-            <li v-for="item in patents" class="item">
-              {{item}}
-            </li>
-          </ul>
+<!--          <ul>-->
+<!--            <li v-for="item in patents" class="item">-->
+<!--              {{item}}-->
+<!--            </li>-->
+<!--          </ul>-->
 
-          <el-divider><i class="el-icon-copy-document"></i></el-divider>
+<!--          <el-divider><i class="el-icon-copy-document"></i></el-divider>-->
 
           <h1>获得奖项</h1>
 

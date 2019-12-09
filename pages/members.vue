@@ -140,27 +140,27 @@
           <h1 id="h1-stu">本科生</h1>
 
           <member
-            name="Name"
+            name="陈杰南"
             avatar=""
-            letter="N"
+            letter="C"
             position="2017级本科生"
             email=""
             description=""
           ></member>
 
           <member
-            name="Name"
+            name="陈星任"
             avatar=""
-            letter="N"
+            letter="C"
             position="2017级本科生"
             email=""
             description=""
           ></member>
 
           <member
-            name="Name"
+            name="张智昭"
             avatar=""
-            letter="N"
+            letter="Z"
             position="2017级本科生"
             email=""
             description=""
@@ -171,19 +171,10 @@
           <h1 id="h1-abroad">留学生</h1>
 
           <member
-            name="Name"
+            name="Hazem"
             avatar=""
-            letter="N"
-            position="2016级留学生"
-            email=""
-            description=""
-          ></member>
-
-          <member
-            name="Name"
-            avatar=""
-            letter="N"
-            position="2017级留学生"
+            letter="H"
+            position="2017级硕士留学生"
             email=""
             description=""
           ></member>
@@ -212,9 +203,9 @@
           ></member>
 
           <member
-            name="Name"
+            name="Shittu"
             avatar=""
-            letter="N"
+            letter="S"
             position="2016级硕士留学生"
             email=""
             description=""
