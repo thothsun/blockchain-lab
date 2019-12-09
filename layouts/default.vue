@@ -37,6 +37,7 @@
     overflow-y: scroll;
     min-height: 100vh;
     font-size: 1.4rem;
+    background-color: white;
   }
 
   .main-content {
