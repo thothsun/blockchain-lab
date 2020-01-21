@@ -86,11 +86,11 @@
 
           <member
             name="张双峰"
-            avatar=""
+            avatar="/avatar/zhangshuangfeng.jpg"
             letter="Z"
             position="2018级硕士研究生"
-            email=""
-            description=""
+            email="1871161@stu.neu.edu.cn"
+            description="1993年出生于辽宁本溪，工学学士，软硕1804班长。2018年9月开始攻读东北大学软件学院软件工程专业。2016年6月本科毕业于大连理工大学，获得学士学位，目前导师是刘园副教授。【<a href='/resume/zhangshuangfeng'>详细信息</a>】"
           ></member>
 
 
