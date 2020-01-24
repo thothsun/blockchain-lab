@@ -12,9 +12,7 @@
             <el-divider></el-divider>
             <el-image class="animated fadeInRight" src="/event/20200103groupmeeting.jpg"/>
             <el-divider></el-divider>
-            <el-image class="animated fadeInLeft" src="http://faculty.neu.edu.cn/swc/guogb/images/visitings/NTU-UNSW-2018-11.jpg"/>
-            <el-divider></el-divider>
-            <el-image class="animated fadeInRight" src="http://faculty.neu.edu.cn/swc/guogb/images/visitings/QT-2018-5.jpg"/>
+            <el-image class="animated fadeInRight" src="/event/20200118.jpg"/>
             <el-divider></el-divider>
           </div>
 

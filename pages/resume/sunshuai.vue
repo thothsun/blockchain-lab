@@ -23,7 +23,7 @@
 
     <el-main class="main-content">
       <el-row :gutter="0" type="flex" justify="center">
-        <el-col :xs="22" :sm="20" :md="18" :lg="10" :xl="10">
+        <el-col :xs="22" :sm="20" :md="18" :lg="14" :xl="14">
 
           <div style="border: #DCDFE6 solid 1px;border-radius:10px; padding: 30px;overflow: hidden;margin-top: 50px">
 
@@ -150,18 +150,18 @@
                 <li @click="showImg('/sunshuai/hj5.jpg')">2015年第二届“创青春”中国青年创新创业大赛河北省二等奖</li>
                 <li @click="showImg('/sunshuai/hj6.jpg')">2016年图灵杯neuq-acm程序设计大赛三等奖</li>
                 <li @click="showImg('/sunshuai/hj7.jpg')">2016年科技创新奖学金</li>
-                <li @click="showImg('/sunshuai/hj8-temp.jpg')">2016年度“优秀创业年度人物”</li>
+                <li @click="showImg('/sunshuai/hj8.jpg')">2016年度“优秀创业年度人物”</li>
                 <li @click="showImg('/sunshuai/hj9.jpg')">2016年秦皇岛国际马拉松优秀志愿者</li>
                 <li @click="showImg('/sunshuai/hj10.jpg')">2016年第五届“中国软件杯”大学生软件设计大赛优秀奖</li>
                 <li @click="showImg('/sunshuai/hj11.jpg')">2017年第八届蓝桥杯个人赛Java 软件开发大学 A 组河北省三等奖</li>
                 <li @click="showImg('/sunshuai/hj12.jpg')">2017年第十五届“挑战杯”大学生课外学术科技作品竞赛河北省特等奖</li>
-                <li>2018年科技创新奖学金</li><!-- todo Image-->
+                <li @click="showImg('/sunshuai/hj13.jpg')">2018年科技创新奖学金</li><!-- todo Image-->
               </ul>
 
               <p class="subsub-title">硕士</p>
               <ul>
-                <li @click="showImg('/sunshuai/hj13.jpg')">2018年第二届辽宁省数学建模竞赛三等奖</li>
-                <li @click="showImg('/sunshuai/hj14.jpg')">2019年第三届辽宁省数学建模竞赛二等奖</li>
+                <li @click="showImg('/sunshuai/hj14.jpg')">2018年第二届辽宁省数学建模竞赛三等奖</li>
+                <li @click="showImg('/sunshuai/hj15.jpg')">2019年第三届辽宁省数学建模竞赛二等奖</li>
               </ul>
             </div>
 
