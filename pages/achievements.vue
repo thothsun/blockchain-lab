@@ -5,6 +5,25 @@
 
       <el-row :gutter="0" type="flex" justify="center">
         <el-col :xs="20" :sm="18" :md="16" :lg="14" :xl="12">
+          <h1>最新成果</h1>
+          <h3 style="margin-top: 10px">FedCoin: Federated Learning Blockchain</h3>
+
+          <p style="display: flex;align-items: center;margin-top: 20px">查看论文：<el-link href="https://arxiv.org/abs/2002.11711" target="_blank">https://arxiv.org/abs/2002.11711</el-link></p>
+          <p style="display: flex;align-items: center;margin-top: 10px">在线实验：<el-link href="http://demo.blockchain-neu.com" target="_blank">http://demo.blockchain-neu.com</el-link></p>
+
+          <p style="display: flex;align-items: center;margin-top: 10px">视频演示：</p>
+
+          <div style="width: 100%;text-align: center">
+            <video width="640" height="360" controls="controls"  preload="metadata">
+              <source :src="'/FedCoin.mp4'" type="video/mp4">
+            </video>
+          </div>
+
+          <p style="display: flex;align-items: center;margin-top: 20px">备用播放地址1：<el-link href="https://v.youku.com/v_show/id_XNDU2NjA5NzQ3Mg==.html" target="_blank">优酷</el-link></p>
+          <p style="display: flex;align-items: center;margin-top: 10px">备用播放地址2：<el-link href="https://youtu.be/u5LPLdZvd0g" target="_blank">YouTube</el-link></p>
+
+          <el-divider></el-divider>
+
           <h1>发表论文</h1>
 
           <ul>
