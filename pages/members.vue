@@ -9,12 +9,11 @@
 
             <ul class="ul-navi">
               <li :class="{active: active===0}" @click="scrollTo('#h1-teacher')">实验室负责人</li>
-              <li :class="{active: active===1}" @click="scrollTo('#h1-master-2017')">2017级硕士研究生</li>
-              <li :class="{active: active===2}" @click="scrollTo('#h1-master-2018')">2018级硕士研究生</li>
-              <li :class="{active: active===3}" @click="scrollTo('#h1-master-2019')">2019级硕士研究生</li>
-              <li :class="{active: active===4}" @click="scrollTo('#h1-stu')">本科生</li>
-              <li :class="{active: active===5}" @click="scrollTo('#h1-abroad')">留学生</li>
-              <li :class="{active: active===6}" @click="scrollTo('#h1-old')">已毕业学生</li>
+              <li :class="{active: active===1}" @click="scrollTo('#h1-master-2018')">2018级硕士研究生</li>
+              <li :class="{active: active===2}" @click="scrollTo('#h1-master-2019')">2019级硕士研究生</li>
+              <li :class="{active: active===3}" @click="scrollTo('#h1-stu')">本科生</li>
+              <li :class="{active: active===4}" @click="scrollTo('#h1-abroad')">留学生</li>
+              <li :class="{active: active===5}" @click="scrollTo('#h1-old')">已毕业学生</li>
             </ul>
 
           </div>
@@ -38,40 +37,16 @@
           <el-divider></el-divider>
 
 
-          <h1 id="h1-master-2017">2017级硕士研究生</h1>
-
-          <member
-            name="杨天知"
-            avatar=""
-            letter="Y"
-            position="2017级硕士研究生"
-            email=""
-            description=""
-          ></member>
-
-          <member
-            name="庄虔伟"
-            avatar=""
-            letter="Z"
-            position="2017级硕士研究生"
-            email=""
-            description=""
-          ></member>
-
-
-          <el-divider></el-divider>
-
-
           <h1 id="h1-master-2018">2018级硕士研究生</h1>
 
 
           <member
             name="吕科"
-            avatar=""
+            avatar="/avatar/lvke.jpg"
             letter="L"
             position="2018级硕士研究生"
-            email=""
-            description=""
+            email="lvke_neu@163.com"
+            description="1996年出生于山东淄博。2018年毕业于鲁东大学信息与电气工程学院软件工程专业，获学士学位。现就读于东北大学软件工程专业，导师是刘园副教授。"
           ></member>
 
 
@@ -110,11 +85,11 @@
 
           <member
             name="田萌萌"
-            avatar=""
+            avatar="/avatar/tianmengmeng.jpg"
             letter="T"
             position="2019级硕士研究生"
-            email=""
-            description=""
+            email="tianmm866@163.com"
+            description="1997年出生于山西太原，工学学士。2019年6月毕业于中北大学大数据学院物联网工程专业。目前就读于东北大学，研究方向契约理论。"
           ></member>
 
           <member
@@ -183,6 +158,24 @@
           <el-divider></el-divider>
 
           <h1 id="h1-old">已毕业学生</h1>
+
+          <member
+            name="杨天知"
+            avatar=""
+            letter="Y"
+            position="2017级硕士研究生"
+            email=""
+            description=""
+          ></member>
+
+          <member
+            name="庄虔伟"
+            avatar=""
+            letter="Z"
+            position="2017级硕士研究生"
+            email=""
+            description=""
+          ></member>
 
           <member
             name="白金"
