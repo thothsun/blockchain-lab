@@ -8,19 +8,27 @@
           <h1>最新成果</h1>
           <h3 style="margin-top: 10px">FedCoin: Federated Learning Blockchain</h3>
 
-          <p style="display: flex;align-items: center;margin-top: 20px">查看论文：<el-link href="https://arxiv.org/abs/2002.11711" target="_blank">https://arxiv.org/abs/2002.11711</el-link></p>
-          <p style="display: flex;align-items: center;margin-top: 10px">在线实验：<el-link href="http://demo.blockchain-neu.com" target="_blank">http://demo.blockchain-neu.com</el-link></p>
+          <p style="display: flex;align-items: center;margin-top: 20px">查看论文：
+            <el-link href="https://arxiv.org/abs/2002.11711" target="_blank">https://arxiv.org/abs/2002.11711</el-link>
+          </p>
+          <p style="display: flex;align-items: center;margin-top: 10px">在线实验：
+            <el-link href="http://demo.blockchain-neu.com" target="_blank">http://demo.blockchain-neu.com</el-link>
+          </p>
 
           <p style="display: flex;align-items: center;margin-top: 10px">视频演示：</p>
 
           <div style="width: 100%;text-align: center">
-            <video width="640" height="360" controls="controls"  preload="metadata">
+            <video width="640" height="360" controls="controls" preload="metadata">
               <source :src="'/FedCoin.mp4'" type="video/mp4">
             </video>
           </div>
 
-          <p style="display: flex;align-items: center;margin-top: 20px">备用播放地址1：<el-link href="https://v.youku.com/v_show/id_XNDU2NjA5NzQ3Mg==.html" target="_blank">优酷</el-link></p>
-          <p style="display: flex;align-items: center;margin-top: 10px">备用播放地址2：<el-link href="https://youtu.be/u5LPLdZvd0g" target="_blank">YouTube</el-link></p>
+          <p style="display: flex;align-items: center;margin-top: 20px">备用播放地址1：
+            <el-link href="https://v.youku.com/v_show/id_XNDU2NjA5NzQ3Mg==.html" target="_blank">优酷</el-link>
+          </p>
+          <p style="display: flex;align-items: center;margin-top: 10px">备用播放地址2：
+            <el-link href="https://youtu.be/u5LPLdZvd0g" target="_blank">YouTube</el-link>
+          </p>
 
           <el-divider></el-divider>
 
@@ -107,20 +115,18 @@
           </ul>
 
 
-
-
           <el-divider><i class="el-icon-notebook-2"></i></el-divider>
 
 
-<!--          <h1>申请专利</h1>-->
+          <!--          <h1>申请专利</h1>-->
 
-<!--          <ul>-->
-<!--            <li v-for="item in patents" class="item">-->
-<!--              {{item}}-->
-<!--            </li>-->
-<!--          </ul>-->
+          <!--          <ul>-->
+          <!--            <li v-for="item in patents" class="item">-->
+          <!--              {{item}}-->
+          <!--            </li>-->
+          <!--          </ul>-->
 
-<!--          <el-divider><i class="el-icon-copy-document"></i></el-divider>-->
+          <!--          <el-divider><i class="el-icon-copy-document"></i></el-divider>-->
 
           <h1>获得奖项</h1>
 
@@ -155,7 +161,7 @@
           'Shuai Sun, Yuan Liu, Xingren Chen, Guibing Guo. The 17th IEEE International Symposium on Parallel and Distributed Processing with Applications(ISPA) 2019.CCF C类',
         ],
         papers2018: [
-         'Zheng Zhao, Yuan Liu. A Blockchain based Identity Management System Considering Reputation, 2nd IEEE International Conference on Computer Systems, Electronics and Control(ICCSEC), 2018.EI ',
+          'Zheng Zhao, Yuan Liu. A Blockchain based Identity Management System Considering Reputation, 2nd IEEE International Conference on Computer Systems, Electronics and Control(ICCSEC), 2018.EI ',
           'Jin Bai, Yuan Liu. A Reputation Model Considering Buyer Subjectivity and Product Return Behavior, 2nd IEEE International Conference on Computer Systems, Electronics and Control(ICCSEC), 2018. EI',
           'Guibing Guo, Tianzhi Yang, Yuan Liu, Search Engine Based Proper Privacy Protection Scheme. IEEE Access 6: 78551-78558,2018. SCI 1区',
         ],
@@ -168,14 +174,14 @@
           'Huaxun Deng, Lingfeng Zhao, Ning Luo, Yuan Liu, Xingwei Wang, Zhenhua Tan, Shuang Wang, and Fucai Zhou. Semi-supervised Learning based Fake Review Detection. IEEE International Symposium on Parallel and Distributed Processing with Applications (ISPA), 2017.EI',
         ],
         papers2016: [
-           'Zhenhua Tan, Jingyu Ning, Yuan Liu, Xingwei Wang, Guangming Yang, Wei Yang. ECRModel: an Elastic Collusion-based Rumor-Propagation Model in Online Social Networks, IEEE Access, 2016. SCI 一区',
+          'Zhenhua Tan, Jingyu Ning, Yuan Liu, Xingwei Wang, Guangming Yang, Wei Yang. ECRModel: an Elastic Collusion-based Rumor-Propagation Model in Online Social Networks, IEEE Access, 2016. SCI 一区',
           'Yuan Liu, Chunyan Miao. A Survey of Incentives and Mechanism Design for Human Computation Systems, CoRR abs/1602.03277, 2016.',
           'Qiong Wu, Siyuan Liu, Chunyan Miao, Yuan Liu, Cyril Leung. A Social Curiosity Inspired Recommendation Model to Improve Precision, Coverage and Diversity. In Proceedings of the 2016 IEEE/WIC/ACM International Conference on Web Intelligence (WI), 2016.EI',
           'Zhenhua Tan, Yicong Niu, Yuan Liu, and Guangming Yang. A Novel Trust Model Based on SLA and Behavior Evaluation for Clouds. In Proceedings of the 2016 Annual Privacy, Security and Trust Conference (PST) 2016 EI',
 
         ],
         papers2015: [
-           'Yuan Liu, Jie Zhang, Bo An, Sandip Sen. A simulation framework for measuring robustness of incentive mechanisms and its implementation in reputation systems, Journal of Autonomous Agents and Multi-agent Systems (JAAMAS), 2015.CCF B类',
+          'Yuan Liu, Jie Zhang, Bo An, Sandip Sen. A simulation framework for measuring robustness of incentive mechanisms and its implementation in reputation systems, Journal of Autonomous Agents and Multi-agent Systems (JAAMAS), 2015.CCF B类',
           'Siyuan Liu, Chunyan Miao, Yuan Liu, Hui Fang, Han Yu, Jie Zhang, Yueting Chai, Cyril Leung: A Reputation Revision Mechanism to Mitigate the Negative Effects of Misreported Ratings. ICEC 2015: 7:1-7:8 EI',
           'Siyuan Liu, Chunyan Miao, Yuan Liu, Han Yu, Jie Zhang, Cyril Leung, An Incentive Mechanism to Elicit Truthful Opinions for Crowdsourced Multiple Choice Consensus Tasks. WI-IAT (2) 2015: 96-103 EI',
         ],
@@ -188,17 +194,17 @@
 
         ],
         papers2013: [
-         'Yuan Liu, Jie Zhang “An incentive mechanism designed for e-marketplaces with limited inventory”, Electronic Commerce Research and Applications, 2013. SCI 二区',
+          'Yuan Liu, Jie Zhang “An incentive mechanism designed for e-marketplaces with limited inventory”, Electronic Commerce Research and Applications, 2013. SCI 二区',
           'Zeinab Noorian, Jie Zhang, Yuan Liu, Stephen Marsh, and Michael Fleming “ Trust-Oriented Buyer Strategies for Seller Reporting and Selection in Competitive Electronic Marketplaces ”, Journal of Autonomous Agents and Multi-Agent Systems (JAAMAS), 2013. CCF B类',
           'Yuan Liu “Towards the Design of a Robust Incentive Mechanism for E-Marketplaces with Limited Inventory”, in International Joint Conference on Autonomous Agents and Multiagent Systems (AAMAS), Doctorial Consortium, 2013, pages 1441-1442. CCF B类 ',
           'Yuan Liu, Jie Zhang “Robustness Evaluation of Incentive Mechanisms”, in International Joint Conference on Autonomous Agents and Multiagent Systems (AAMAS), 2013 (short paper), pages 1293-1294. CCF B类',
         ],
         papers2012: [
-        'Yuan Liu, Qin Li, Jie Zhang “Coalition Formation Game based Reputation System”, in ACM EC Workshop on Incentives and Trust in E-Commerce (WIT-EC2012). EI ',
+          'Yuan Liu, Qin Li, Jie Zhang “Coalition Formation Game based Reputation System”, in ACM EC Workshop on Incentives and Trust in E-Commerce (WIT-EC2012). EI ',
           'Yuan Liu, Jie Zhang, Qin Li “Design of an Incentive Mechanism to Promote Honesty in E-marketplaces with Limited Inventory”, in the proceedings of 14th Annual International Conference on Electronic Commerce, Singapore (ICEC2012), pages 54-61. EI',
           'Yuan Liu, Jie Zhang, Qin Li “An Incentive Mechanism to Promote Honesty in E-marketplaces with Limited Inventory ”, in the proceedings of 6th IFIP WG 11.11 International Conference on Trust Management, Surat, India (IFIPTM2012), pages 209-216. EI',
         ],
-        papers2011:[
+        papers2011: [
           'Yuan Liu, Jie Zhang, Quanyan Zhu “Design of a Reputation System based on Dynamic Coalition Formation”, in the proceedings of Third International Conference on Social Informatics, Singapore (SocInfo2011), pages 135-144. EI',
         ],
         patents: [
@@ -207,8 +213,11 @@
           '基于......的系统'
         ],
         awards: [
-          '全国大学生信息安全竞赛特等奖',
-          'ACM程序设计大赛金奖'
+          '2019年中国“互联网+“创新创业大赛省银奖',
+          '2019年中国“互联网+”大学生创新创业竞赛东北大学校一等奖',
+          '2019年国际大学生数学建模竞赛三等奖',
+          '2019年国际大学生数学建模竞赛二等奖',
+          '“建行杯”第五届辽宁省“互联网+”大学生创新创业竞赛银奖',
         ]
       }
     },
