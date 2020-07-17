@@ -30,6 +30,16 @@
             <el-link href="https://youtu.be/u5LPLdZvd0g" target="_blank">YouTube</el-link>
           </p>
 
+          <h3 style="margin-top: 10px">POLE: Empowering Machine Learning with Consensus Building on Blockchains</h3>
+
+          <p style="display: flex;align-items: center;margin-top: 10px">视频演示：</p>
+
+          <div style="width: 100%;text-align: center">
+            <video width="640" height="360" controls="controls" preload="metadata">
+              <source :src="'/POLE.mp4'" type="video/mp4">
+            </video>
+          </div>
+
           <el-divider></el-divider>
 
           <h1>发表论文</h1>
@@ -118,15 +128,15 @@
           <el-divider><i class="el-icon-notebook-2"></i></el-divider>
 
 
-          <!--          <h1>申请专利</h1>-->
+                   <h1>编写书籍</h1>
 
-          <!--          <ul>-->
-          <!--            <li v-for="item in patents" class="item">-->
-          <!--              {{item}}-->
-          <!--            </li>-->
-          <!--          </ul>-->
+                   <ul>
+                     <li v-for="item in books" class="item">
+                       {{item}}
+                     </li>
+                   </ul>
 
-          <!--          <el-divider><i class="el-icon-copy-document"></i></el-divider>-->
+                   <el-divider><i class="el-icon-copy-document"></i></el-divider>        
 
           <h1>获得奖项</h1>
 
@@ -154,15 +164,17 @@
         papers2020: [
           'Yuan Liu, Shuai Sun, Zhengpeng Ai, Shuangfeng Zhang, Zelei Liu, Han Yu. FedCoin: A Peer-to-Peer Payment System for Federated Learning, in arXiv, 2020',
           'Shuangfeng Zhang, Yuan Liu, Xingren Chen, Xin Zhou. A POMDP-based Method for Analyzing Blockchain System Security Against Long Delay Attack (Extended Abstract), The 19th International Conference on Autonomous Agents and Multiagent Systems (AAMAS 2020) .CCF B类',
+          'Zhizhao Zhang, Tianzhi Yang, Yuan Liu. SABlockFL: A Blockchain-based Smart Agent System Architecture and Its Application in Federated Learning, International Journal of Crowd Science, 2020 (accepted)',
         ],
         papers2019: [
-          'Qianwei Zhuang, Yuan Liu Lisi Chen, Zhengpeng Ai. Proof of Reputation: A Reputation-based Consensus Protocol for Blockchain based Systems, 2019 International Electronics Communication Conference (IECC), 2019. EI',
-          'Tianzhi Yang, Yuan Liu. A Smart Agent based Blockchain Applicaiton Architecture, The 4th International Conference on Crowd Science and Engineering(ICCSE), 2019. EI ',
-          'Shuai Sun, Yuan Liu, Xingren Chen, Guibing Guo. The 17th IEEE International Symposium on Parallel and Distributed Processing with Applications(ISPA) 2019.CCF C类',
+          'Qianwei Zhuang, Yuan Liu Lisi Chen, Zhengpeng Ai. Proof of Reputation: A Reputation-based Consensus Protocol for Blockchain based Systems. 2019 International Electronics Communication Conference (IECC), 2019. EI',
+          'Tianzhi Yang, Yuan Liu. A Smart Agent based Blockchain Applicaiton Architecture. The 4th International Conference on Crowd Science and Engineering(ICCSE), 2019. EI ',
+          'Shuai Sun, Yuan Liu, Xingren Chen, Guibing Guo. A Privacy-preserving and Robust Reputation System based on Blockchain. The 17th IEEE International Symposium on Parallel and Distributed Processing with Applications(ISPA) 2019.CCF C类',
+          'Shuangfei Zhang, Yuan Liu, Xingren Chen. BIT Problem: Is There A Trade-off in the Performances of Blockchain Systems?. 2019 International Conference on Blockchain and Trustworthy Systems (BlockSys), 2019. EI',
         ],
         papers2018: [
-          'Zheng Zhao, Yuan Liu. A Blockchain based Identity Management System Considering Reputation, 2nd IEEE International Conference on Computer Systems, Electronics and Control(ICCSEC), 2018.EI ',
-          'Jin Bai, Yuan Liu. A Reputation Model Considering Buyer Subjectivity and Product Return Behavior, 2nd IEEE International Conference on Computer Systems, Electronics and Control(ICCSEC), 2018. EI',
+          'Zheng Zhao, Yuan Liu. A Blockchain based Identity Management System Considering Reputation. 2nd IEEE International Conference on Computer Systems, Electronics and Control(ICCSEC), 2018.EI ',
+          'Jin Bai, Yuan Liu. A Reputation Model Considering Buyer Subjectivity and Product Return Behavior. 2nd IEEE International Conference on Computer Systems, Electronics and Control(ICCSEC), 2018. EI',
           'Guibing Guo, Tianzhi Yang, Yuan Liu, Search Engine Based Proper Privacy Protection Scheme. IEEE Access 6: 78551-78558,2018. SCI 1区',
         ],
         papers2017: [
@@ -200,24 +212,20 @@
           'Yuan Liu, Jie Zhang “Robustness Evaluation of Incentive Mechanisms”, in International Joint Conference on Autonomous Agents and Multiagent Systems (AAMAS), 2013 (short paper), pages 1293-1294. CCF B类',
         ],
         papers2012: [
-          'Yuan Liu, Qin Li, Jie Zhang “Coalition Formation Game based Reputation System”, in ACM EC Workshop on Incentives and Trust in E-Commerce (WIT-EC2012). EI ',
-          'Yuan Liu, Jie Zhang, Qin Li “Design of an Incentive Mechanism to Promote Honesty in E-marketplaces with Limited Inventory”, in the proceedings of 14th Annual International Conference on Electronic Commerce, Singapore (ICEC2012), pages 54-61. EI',
-          'Yuan Liu, Jie Zhang, Qin Li “An Incentive Mechanism to Promote Honesty in E-marketplaces with Limited Inventory ”, in the proceedings of 6th IFIP WG 11.11 International Conference on Trust Management, Surat, India (IFIPTM2012), pages 209-216. EI',
+          'Yuan Liu, Qin Li, Jie Zhang. “Coalition Formation Game based Reputation System”, in ACM EC Workshop on Incentives and Trust in E-Commerce (WIT-EC2012). EI ',
+          'Yuan Liu, Jie Zhang, Qin Li. “Design of an Incentive Mechanism to Promote Honesty in E-marketplaces with Limited Inventory”, in the proceedings of 14th Annual International Conference on Electronic Commerce, Singapore (ICEC2012), pages 54-61. EI',
+          'Yuan Liu, Jie Zhang, Qin Li. “An Incentive Mechanism to Promote Honesty in E-marketplaces with Limited Inventory ”, in the proceedings of 6th IFIP WG 11.11 International Conference on Trust Management, Surat, India (IFIPTM2012), pages 209-216. EI',
         ],
         papers2011: [
-          'Yuan Liu, Jie Zhang, Quanyan Zhu “Design of a Reputation System based on Dynamic Coalition Formation”, in the proceedings of Third International Conference on Social Informatics, Singapore (SocInfo2011), pages 135-144. EI',
+          'Yuan Liu, Jie Zhang, Quanyan Zhu. “Design of a Reputation System based on Dynamic Coalition Formation”, in the proceedings of Third International Conference on Social Informatics, Singapore (SocInfo2011), pages 135-144. EI',
         ],
-        patents: [
-          '一种......算法',
-          '基于......的模型',
-          '基于......的系统'
+        books: [
+          'Yuan Liu, Shuangfeng Zhang, Xingren Chen. Blockchain Security Analysis: A POMDP-Based Approach for Analyzing Blockchain System Security Against the Long Delay Attack. Eliva Press. 2020, ISBN: 978-1952751332'
         ],
         awards: [
-          '2019年中国“互联网+“创新创业大赛省银奖',
-          '2019年中国“互联网+”大学生创新创业竞赛东北大学校一等奖',
-          '2019年国际大学生数学建模竞赛三等奖',
           '2019年国际大学生数学建模竞赛二等奖',
           '“建行杯”第五届辽宁省“互联网+”大学生创新创业竞赛银奖',
+          '2019年中国“互联网+”大学生创新创业竞赛东北大学校一等奖',
         ]
       }
     },
