@@ -6,7 +6,7 @@
       <el-row :gutter="0" type="flex" justify="center">
         <el-col :xs="20" :sm="18" :md="16" :lg="14" :xl="12">
           <h1>最新成果</h1>
-          <h3 style="margin-top: 10px">FedCoin: Federated Learning Blockchain</h3>
+          <h3 style="margin-top: 10px">FedCoin: A Peer-to-Peer Payment System for Federated Learning</h3>
 
           <p style="display: flex;align-items: center;margin-top: 20px">查看论文：
             <el-link href="https://arxiv.org/abs/2002.11711" target="_blank">https://arxiv.org/abs/2002.11711</el-link>
@@ -30,7 +30,13 @@
             <el-link href="https://youtu.be/u5LPLdZvd0g" target="_blank">YouTube</el-link>
           </p>
 
-          <h3 style="margin-top: 10px">POLE: Empowering Machine Learning with Consensus Building on Blockchains</h3>
+          <br>
+
+          <h3 style="margin-top: 10px">Proof of Learning (PoLe): Empowering Machine Learning with Consensus Building on Blockchains</h3>
+
+          <p style="display: flex;align-items: center;margin-top: 20px">查看论文：
+            <el-link href="https://arxiv.org/abs/2007.15145" target="_blank">https://arxiv.org/abs/2007.15145</el-link>
+          </p>
 
           <p style="display: flex;align-items: center;margin-top: 10px">视频演示：</p>
 
@@ -41,6 +47,17 @@
           </div>
 
           <el-divider></el-divider>
+
+
+                   <h1>编写书籍</h1>
+
+                   <ul>
+                     <li v-for="item in books" class="item">
+                       {{item}}
+                     </li>
+                   </ul>
+
+          <el-divider><i class="el-icon-notebook-2"></i></el-divider>
 
           <h1>发表论文</h1>
 
@@ -124,18 +141,6 @@
             </li>
           </ul>
 
-
-          <el-divider><i class="el-icon-notebook-2"></i></el-divider>
-
-
-                   <h1>编写书籍</h1>
-
-                   <ul>
-                     <li v-for="item in books" class="item">
-                       {{item}}
-                     </li>
-                   </ul>
-
                    <el-divider><i class="el-icon-copy-document"></i></el-divider>        
 
           <h1>获得奖项</h1>
@@ -162,9 +167,11 @@
     data() {
       return {
         papers2020: [
-          'Yuan Liu, Shuai Sun, Zhengpeng Ai, Shuangfeng Zhang, Zelei Liu, Han Yu. FedCoin: A Peer-to-Peer Payment System for Federated Learning, in arXiv, 2020',
-          'Shuangfeng Zhang, Yuan Liu, Xingren Chen, Xin Zhou. A POMDP-based Method for Analyzing Blockchain System Security Against Long Delay Attack (Extended Abstract), The 19th International Conference on Autonomous Agents and Multiagent Systems (AAMAS 2020) .CCF B类',
-          'Zhizhao Zhang, Tianzhi Yang, Yuan Liu. SABlockFL: A Blockchain-based Smart Agent System Architecture and Its Application in Federated Learning, International Journal of Crowd Science, 2020 (accepted)',
+          'Yixiao Lan, Yuan Liu, Boyang Li. Proof of Learning (PoLe): Empowering Machine Learning with Consensus Building on Blockchains. in arXiv, 2020',
+          'Yuan Liu, Zhengpeng Ai, Mengmeng Tian, Guibing Guo, Linying Jiang. DSBFT: A Delegation based Scalable Byzantine False Tolerance Consensus Mechanism. The 20th International Conference on Algorithms and Architectures for Parallel Processing (ICA3PP 2020). CCF C类 (accepted)',
+          'Yuan Liu, Shuai Sun, Zhengpeng Ai, Shuangfeng Zhang, Zelei Liu, Han Yu. FedCoin: A Peer-to-Peer Payment System for Federated Learning. in arXiv, 2020',
+          'Shuangfeng Zhang, Yuan Liu, Xingren Chen, Xin Zhou. A POMDP-based Method for Analyzing Blockchain System Security Against Long Delay Attack (Extended Abstract). The 19th International Conference on Autonomous Agents and Multiagent Systems (AAMAS 2020) .CCF B类',
+          'Zhizhao Zhang, Tianzhi Yang, Yuan Liu. SABlockFL: A Blockchain-based Smart Agent System Architecture and Its Application in Federated Learning. International Journal of Crowd Science, 2020',
         ],
         papers2019: [
           'Qianwei Zhuang, Yuan Liu Lisi Chen, Zhengpeng Ai. Proof of Reputation: A Reputation-based Consensus Protocol for Blockchain based Systems. 2019 International Electronics Communication Conference (IECC), 2019. EI',
