@@ -11,9 +11,10 @@
               <li :class="{active: active===0}" @click="scrollTo('#h1-teacher')">实验室负责人</li>
               <li :class="{active: active===1}" @click="scrollTo('#h1-master-2018')">2018级硕士研究生</li>
               <li :class="{active: active===2}" @click="scrollTo('#h1-master-2019')">2019级硕士研究生</li>
-              <li :class="{active: active===3}" @click="scrollTo('#h1-stu')">本科生</li>
-              <li :class="{active: active===4}" @click="scrollTo('#h1-abroad')">留学生</li>
-              <li :class="{active: active===5}" @click="scrollTo('#h1-old')">已毕业学生</li>
+              <li :class="{active: active===3}" @click="scrollTo('#h1-master-2020')">2020级硕士研究生</li>
+              <li :class="{active: active===4}" @click="scrollTo('#h1-stu')">本科生</li>
+              <li :class="{active: active===5}" @click="scrollTo('#h1-abroad')">留学生</li>
+              <li :class="{active: active===6}" @click="scrollTo('#h1-old')">已毕业学生</li>
             </ul>
 
           </div>
@@ -108,6 +109,46 @@
             position="2019级硕士研究生"
             email="1905874127@qq.com"
             description="1997年出生于辽宁朝阳。2019年毕业于东北电力大学计算机学院软件工程专业，获学士学位。现就读于东北大学软件工程专业，师从刘园副教授。"
+          ></member>
+
+          <el-divider></el-divider>
+
+          <h1 id="h1-master-2020">2020级硕士研究生</h1>
+
+          <member
+            name="陈俣欣"
+            avatar=""
+            letter="C"
+            position="2020级硕士研究生"
+            email=""
+            description=""
+          ></member>
+
+          <member
+            name="杜妍"
+            avatar=""
+            letter="D"
+            position="2020级硕士研究生"
+            email=""
+            description=""
+          ></member>
+
+          <member
+            name="于汪源"
+            avatar="/avatar/yuwangyuan.jpg"
+            letter="Y"
+            position="2020级硕士研究生"
+            email="2071338@stu.neu.edu.cn"
+            description="1998年出生于辽宁铁岭。2020年6月毕业于湘潭大学信息管理与信息系统专业，获管理学学士，经济学学士。目前就读于东北大学，师从刘园副教授。"
+          ></member>
+
+          <member
+            name="张亚男"
+            avatar=""
+            letter="Z"
+            position="2020级硕士研究生"
+            email=""
+            description=""
           ></member>
 
           <el-divider></el-divider>
