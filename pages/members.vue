@@ -117,11 +117,11 @@
 
           <member
             name="陈俣欣"
-            avatar=""
+            avatar="/avatar/chenyuxin.jpg"
             letter="C"
             position="2020级硕士研究生"
-            email=""
-            description=""
+            email="chenyuxin357@163.com"
+            description="1997年出生于辽宁沈阳，工学学士。2020年6月毕业于内蒙古大学软件工程专业。目前就读于东北大学，研究方向联邦学习。"
           ></member>
 
           <member
