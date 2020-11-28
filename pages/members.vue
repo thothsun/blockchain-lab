@@ -126,11 +126,11 @@
 
           <member
             name="杜妍"
-            avatar=""
+            avatar="/avatar/duyan.jpg"
             letter="D"
             position="2020级硕士研究生"
-            email=""
-            description=""
+            email="2071272@stu.neu.edu.cn"
+            description="1998年出生于安徽六安，工学学士。2020年6月毕业于安徽工业大学软件工程专业。目前就读于东北大学，研究方向联盟链，师从刘园副教授。"
           ></member>
 
           <member
