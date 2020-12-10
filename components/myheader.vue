@@ -71,13 +71,13 @@
           },
           {
             key: '/members',
-            name_cn: '我的学生',
+            name_cn: '团队成员',
             name_en: 'members'
           }],
         titles2: [
           {
             key: '/join',
-            name_cn: '联系方式',
+            name_cn: '加入我们',
             name_en: 'join us'
           },
           {
