@@ -12,6 +12,7 @@
               <li> <el-link href="http://www.letpub.com.cn/index.php?page=grant" target="_blank">国家自然基金项目查询</el-link></li>
               <li> <el-link href="http://faculty.neu.edu.cn/sites.htm" target="_blank">东北大学教师列表</el-link></li>
               <li> <el-link href="http://faculty.neu.edu.cn/swc/guogb/docs/cal2018-2019.jpg" target="_blank">东北大学2018 - 2019学年校历查询</el-link></li>
+              <li> <el-link href="http://219.216.86.222:8889" target="_blank">neubitcoin区块查看（仅对NEU校园网开放）</el-link></li>
             </ul>
           </div>
           <h1>合作交流</h1>
