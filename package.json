@@ -17,6 +17,7 @@
     "nuxt": "^2.14.0"
   },
   "devDependencies": {
+    "@nuxt/types": "^2.14.11",
     "element-theme-chalk": "^2.12.0"
   }
 }
