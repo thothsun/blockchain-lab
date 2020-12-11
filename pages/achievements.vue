@@ -61,6 +61,14 @@
 
           <h1>发表论文</h1>
 
+          <h3>2021</h3>
+
+          <ul>
+            <li v-for="item in papers2021" class="item animated zoomIn">
+              {{item}}
+            </li>
+          </ul>
+
           <h3>2020</h3>
 
           <ul>
@@ -141,7 +149,7 @@
             </li>
           </ul>
 
-                   <el-divider><i class="el-icon-copy-document"></i></el-divider>        
+                   <el-divider><i class="el-icon-copy-document"></i></el-divider>
 
           <h1>获得奖项</h1>
 
@@ -166,9 +174,14 @@
     name: "achievements",
     data() {
       return {
+        papers2021: [
+          'Yixiao Lan, Yuan Liu, Boyang Li, Chunyang Miao. Proof of Learning (PoLe): Empowering Machine Learning with Consensus Building on Blockchains (Demo).The 35th AAAI Conference IEEE International Conference on Artificial Intelligence (AAAI), 2021, Demo paper CCF A类'
+        ],
         papers2020: [
-          'Yixiao Lan, Yuan Liu, Boyang Li. Proof of Learning (PoLe): Empowering Machine Learning with Consensus Building on Blockchains. in arXiv, 2020',
-          'Yuan Liu, Zhengpeng Ai, Mengmeng Tian, Guibing Guo, Linying Jiang. DSBFT: A Delegation based Scalable Byzantine False Tolerance Consensus Mechanism. The 20th International Conference on Algorithms and Architectures for Parallel Processing (ICA3PP 2020). CCF C类 (accepted)',
+          'Yuan Liu, Zhengpeng Ai, Shuai Sun, Zelei Liu, Han Yu. FedCoin: A Peer-to-Peer Payment System for Federated Learning. In Book: Yang Q., Fan L., Yu H. (eds) Federated Learning. Lecture Notes in Computer Science, vol 12500. Springer, Cham. https://doi.org/10.1007/978-3-030-63076-8_9',
+          'Zhengpeng Ai, Yuan Liu, Xingwei Wang. ABC: An auction-based Blockchain Consensus-Incentive Mechanism. The 26th IEEE International Conference on Parallel and Distributed Systems (ICPADS 2020), 2020 (Invited). CCF C类',
+          'Yuan Liu, Zhengpeng Ai, Mengmeng Tian, Guibing Guo, Linying Jiang. DSBFT: A Delegation based Scalable Byzantine False Tolerance Consensus Mechanism. The 20th International Conference on Algorithms and Architectures for Parallel Processing (ICA3PP 2020). CCF C类',
+          'Yixiao Lan, Yuan Liu, Boyang Li. Proof of Learning (PoLe): Empowering Machine Learning with Consensus Building on Blockchains. in CoRR abs/2007.15145, 2020',
           'Yuan Liu, Shuai Sun, Zhengpeng Ai, Shuangfeng Zhang, Zelei Liu, Han Yu. FedCoin: A Peer-to-Peer Payment System for Federated Learning. in arXiv, 2020',
           'Shuangfeng Zhang, Yuan Liu, Xingren Chen, Xin Zhou. A POMDP-based Method for Analyzing Blockchain System Security Against Long Delay Attack (Extended Abstract). The 19th International Conference on Autonomous Agents and Multiagent Systems (AAMAS 2020) .CCF B类',
           'Zhizhao Zhang, Tianzhi Yang, Yuan Liu. SABlockFL: A Blockchain-based Smart Agent System Architecture and Its Application in Federated Learning. International Journal of Crowd Science, 2020',
@@ -233,6 +246,7 @@
           '2019年国际大学生数学建模竞赛二等奖',
           '“建行杯”第五届辽宁省“互联网+”大学生创新创业竞赛银奖',
           '2019年中国“互联网+”大学生创新创业竞赛东北大学校一等奖',
+          '2020年全国大学生英语竞赛国家级三等奖'
         ]
       }
     },
