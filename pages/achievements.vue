@@ -178,7 +178,6 @@
           'Yixiao Lan, Yuan Liu, Boyang Li, Chunyang Miao. Proof of Learning (PoLe): Empowering Machine Learning with Consensus Building on Blockchains (Demo).The 35th AAAI Conference IEEE International Conference on Artificial Intelligence (AAAI), 2021, Demo paper CCF A类'
         ],
         papers2020: [
-          'Yuan Liu, Zhengpeng Ai, Shuai Sun, Zelei Liu, Han Yu. FedCoin: A Peer-to-Peer Payment System for Federated Learning. In Book: Yang Q., Fan L., Yu H. (eds) Federated Learning. Lecture Notes in Computer Science, vol 12500. Springer, Cham. https://doi.org/10.1007/978-3-030-63076-8_9',
           'Zhengpeng Ai, Yuan Liu, Xingwei Wang. ABC: An auction-based Blockchain Consensus-Incentive Mechanism. The 26th IEEE International Conference on Parallel and Distributed Systems (ICPADS 2020), 2020 (Invited). CCF C类',
           'Yuan Liu, Zhengpeng Ai, Mengmeng Tian, Guibing Guo, Linying Jiang. DSBFT: A Delegation based Scalable Byzantine False Tolerance Consensus Mechanism. The 20th International Conference on Algorithms and Architectures for Parallel Processing (ICA3PP 2020). CCF C类',
           'Yixiao Lan, Yuan Liu, Boyang Li. Proof of Learning (PoLe): Empowering Machine Learning with Consensus Building on Blockchains. in CoRR abs/2007.15145, 2020',
@@ -240,6 +239,7 @@
           'Yuan Liu, Jie Zhang, Quanyan Zhu. “Design of a Reputation System based on Dynamic Coalition Formation”, in the proceedings of Third International Conference on Social Informatics, Singapore (SocInfo2011), pages 135-144. EI',
         ],
         books: [
+          'Yuan Liu, Zhengpeng Ai, Shuai Sun, Zelei Liu, Han Yu. FedCoin: A Peer-to-Peer Payment System for Federated Learning. In Book: Yang Q., Fan L., Yu H. (eds) Federated Learning. Lecture Notes in Computer Science, vol 12500. Springer, Cham. https://doi.org/10.1007/978-3-030-63076-8_9',
           'Yuan Liu, Shuangfeng Zhang, Xingren Chen. Blockchain Security Analysis: A POMDP-Based Approach for Analyzing Blockchain System Security Against the Long Delay Attack. Eliva Press. 2020, ISBN: 978-1952751332'
         ],
         awards: [
