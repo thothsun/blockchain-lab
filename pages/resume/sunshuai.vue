@@ -60,7 +60,7 @@
                     </div>
                     <div style="display: inline-flex;height: 100%;width: 50%;align-items: center">
                       <p style="display: inline">GitHub:&nbsp;</p>
-                      <el-link :href="'https://github.com/Sun-Shuai'" target="_blank">https://github.com/Sun-Shuai
+                      <el-link :href="'https://github.com/thothsun'" target="_blank">https://github.com/thothsun
                       </el-link>
                     </div>
                   </div>
@@ -81,8 +81,8 @@
               </div>
 
               <div
-                style="height: 100%; display: inline-flex;align-items: center;border: #E4E7ED dashed 1px">
-                <el-image style="height: 140px;width: 100px" src="/avatar/sunshuai-1.jpg"></el-image>
+                style="height: 100%; display: inline-flex;align-items: center;border: #E4E7ED solid 1px">
+                <el-image style="height: 120px;width: 88px" src="/avatar/sunshuai-1.jpg"></el-image>
               </div>
             </div>
 

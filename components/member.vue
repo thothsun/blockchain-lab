@@ -3,11 +3,11 @@
   <div class="container  animated flipInX">
 
 
-    <div style="height: 150px;width: 150px">
+    <div style="height: 150px;width: 150px;display:flex;justify-content:center;align-items:center">
       <el-avatar
-        style="font-size: 10rem;display: flex;justify-content: center;align-items: center;border: 1px solid darkgrey"
-        :size="150"
-        shape="circle"
+        style="font-size: 10rem;border: 1px solid darkgrey"
+        :size="148"
+        shape="square"
         fit="contain"
         :src="avatar"
       >{{letter}}
