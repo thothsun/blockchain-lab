@@ -13,6 +13,9 @@ export default {
     ],
     link: [
       {rel: 'icon', type: 'image/x-icon', href: '/favicon.ico'}
+    ],
+    script: [
+      {src:'https://hm.baidu.com/hm.js?ed6db3061be10c22ccc4ec93a082d12d'}
     ]
   },
   /*
@@ -33,7 +36,8 @@ export default {
   */
   plugins: [
     '@/plugins/element-ui',
-    '@/plugins/animate'
+    '@/plugins/animate',
+    '@/plugins/baidu'
   ],
   /*
   ** Nuxt.js dev-modules
